@@ -9,8 +9,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 105,
-						"Y": 27
+						"X": 36,
+						"Y": 23
 					}
 				}
 			},
@@ -30,8 +30,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 616,
-						"Y": 522
+						"X": 34,
+						"Y": 315
 					}
 				}
 			},
@@ -40,8 +40,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 833,
-						"Y": 525
+						"X": 270,
+						"Y": 316
 					}
 				}
 			},
@@ -50,8 +50,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 167,
-						"Y": 639
+						"X": 39,
+						"Y": 690
 					}
 				}
 			},
@@ -60,8 +60,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 416,
-						"Y": 656
+						"X": 112,
+						"Y": 732
 					}
 				}
 			},
@@ -70,8 +70,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 260,
-						"Y": 312
+						"X": 353,
+						"Y": 622
 					}
 				}
 			},
@@ -80,8 +80,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 497,
-						"Y": 341
+						"X": 419,
+						"Y": 675
 					}
 				}
 			},
@@ -90,8 +90,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 702,
-						"Y": 412
+						"X": 10,
+						"Y": 518
 					}
 				}
 			},
@@ -100,8 +100,8 @@
 				"panel": {
 					"isOpen": "true",
 					"position": {
-						"X": 25,
-						"Y": 320
+						"X": 87,
+						"Y": 566
 					}
 				}
 			},
@@ -132,8 +132,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 397,
-						"Y": 30
+						"X": 327,
+						"Y": 22
 					}
 				}
 			},
@@ -145,6 +145,36 @@
 					"position": {
 						"X": 857,
 						"Y": 183
+					}
+				}
+			},
+			"PurchaseOrder": {
+				"panelColor": "#D7E3BC",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 82,
+						"Y": 898
+					}
+				}
+			},
+			"Inventory": {
+				"panelColor": "#B2A2C7",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 657,
+						"Y": 403
+					}
+				}
+			},
+			"InventoryItem": {
+				"panelColor": "#4FA997",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 682,
+						"Y": 518
 					}
 				}
 			}
@@ -491,6 +521,48 @@
 					"type": "SellPriceCollection",
 					"reversePath": true,
 					"path": "SellPriceVersion"
+				}
+			]
+		},
+		{
+			"collectionName": "PurchaseOrderCollection",
+			"className": "PurchaseOrder",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "InventoryCollection",
+			"className": "Inventory",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "InventoryItemCollection",
+			"className": "InventoryItem",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
 				}
 			]
 		}
