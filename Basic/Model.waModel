@@ -1,0 +1,498 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Branch": {
+				"panelColor": "#8DB3E2",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 105,
+						"Y": 27
+					}
+				}
+			},
+			"Kitchen": {
+				"panelColor": "#B7DDE8",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 303,
+						"Y": 438
+					}
+				}
+			},
+			"SalesOrder": {
+				"panelColor": "#D88CFF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 616,
+						"Y": 522
+					}
+				}
+			},
+			"SalesOrderLine": {
+				"panelColor": "#D7E3BC",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 833,
+						"Y": 525
+					}
+				}
+			},
+			"ProductionOrder": {
+				"panelColor": "#D88CFF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 167,
+						"Y": 639
+					}
+				}
+			},
+			"ProductionOrderLine": {
+				"panelColor": "#eee",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 416,
+						"Y": 656
+					}
+				}
+			},
+			"Recipe": {
+				"panelColor": "#8DB3E2",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 260,
+						"Y": 312
+					}
+				}
+			},
+			"RecipeLine": {
+				"panelColor": "#76923C",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 497,
+						"Y": 341
+					}
+				}
+			},
+			"MixingOrder": {
+				"panelColor": "#BFBFBF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 702,
+						"Y": 412
+					}
+				}
+			},
+			"MixingOrderLine": {
+				"panelColor": "#fff",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 320
+					}
+				}
+			},
+			"SalesItem": {
+				"panelColor": "#D8D8D8",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 706,
+						"Y": 8
+					}
+				}
+			},
+			"RawItem": {
+				"panelColor": "#B8CCE4",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 744,
+						"Y": 679
+					}
+				}
+			},
+			"SellPriceVersion": {
+				"panelColor": "#76923C",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 397,
+						"Y": 30
+					}
+				}
+			},
+			"SellPrice": {
+				"panelColor": "#BFBFBF",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 857,
+						"Y": 183
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Branch",
+			"className": "Branch",
+			"collectionName": "BranchCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "PriceVersion",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "SellPriceVersion",
+					"path": "SellPriceVersion"
+				},
+				{
+					"name": "Kitchen",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Kitchen",
+					"path": "Kitchen"
+				}
+			]
+		},
+		{
+			"name": "Kitchen",
+			"className": "Kitchen",
+			"collectionName": "KitchenCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "branchCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "BranchCollection",
+					"reversePath": true,
+					"path": "Kitchen"
+				}
+			]
+		},
+		{
+			"name": "MixingOrder",
+			"className": "MixingOrder",
+			"collectionName": "MixingOrderCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "MixingOrderLine",
+			"className": "MixingOrderLine",
+			"collectionName": "MixingOrderLineCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "ProductionOrder",
+			"className": "ProductionOrder",
+			"collectionName": "ProductionOrderCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "ProductionOrderLine",
+			"className": "ProductionOrderLine",
+			"collectionName": "ProductionOrderLineCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "RawItem",
+			"className": "RawItem",
+			"collectionName": "RawItemCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "Recipe",
+			"className": "Recipe",
+			"collectionName": "RecipeCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "RecipeLine",
+			"className": "RecipeLine",
+			"collectionName": "RecipeLineCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "SalesItem",
+			"className": "SalesItem",
+			"collectionName": "SalesItemCollection",
+			"matchTable": "Item",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "sellPriceCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "SellPriceCollection",
+					"reversePath": true,
+					"path": "Item"
+				}
+			]
+		},
+		{
+			"name": "SalesOrder",
+			"className": "SalesOrder",
+			"collectionName": "SalesOrderCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "SalesOrderLine",
+			"className": "SalesOrderLine",
+			"collectionName": "SalesOrderLineCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				}
+			]
+		},
+		{
+			"name": "SellPrice",
+			"className": "SellPrice",
+			"collectionName": "SellPriceCollection",
+			"matchTable": "Price",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Item",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "SalesItem",
+					"path": "SalesItem"
+				},
+				{
+					"name": "Price",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "SellPriceVersion",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "SellPriceVersion",
+					"path": "SellPriceVersion"
+				}
+			]
+		},
+		{
+			"name": "SellPriceVersion",
+			"className": "SellPriceVersion",
+			"collectionName": "SellPriceVersionCollection",
+			"matchTable": "PriceVersion",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "branchCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "BranchCollection",
+					"reversePath": true,
+					"path": "PriceVersion"
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Date",
+					"kind": "storage",
+					"scope": "public",
+					"type": "date",
+					"simpleDate": false
+				},
+				{
+					"name": "sellPriceCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "SellPriceCollection",
+					"reversePath": true,
+					"path": "SellPriceVersion"
+				}
+			]
+		}
+	]
+}
