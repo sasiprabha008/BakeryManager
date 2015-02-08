@@ -7,8 +7,8 @@
 	 z-index: 12;
 	 width: 136px;
 	 height: 13px;
-	 top: 1434px;
-	 left: 20px;
+	 top: 741px;
+	 left: 18px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -19,8 +19,8 @@
 	 z-index: 12;
 	 width: 300px;
 	 height: 300px;
-	 top: 1452px;
-	 left: 20px;
+	 top: 759px;
+	 left: 18px;
 	
 	 position: absolute;
 	 
@@ -30,8 +30,8 @@
 	 z-index: 10;
 	 width: 146px;
 	 height: 13px;
-	 top: 1092px;
-	 left: 20px;
+	 top: 403px;
+	 left: 355px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -42,8 +42,8 @@
 	 z-index: 10;
 	 width: 300px;
 	 height: 300px;
-	 top: 1110px;
-	 left: 20px;
+	 top: 421px;
+	 left: 355px;
 	
 	 position: absolute;
 	 
@@ -53,8 +53,8 @@
 	 z-index: 8;
 	 width: 171px;
 	 height: 13px;
-	 top: 750px;
-	 left: 20px;
+	 top: 403px;
+	 left: 18px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -65,8 +65,8 @@
 	 z-index: 8;
 	 width: 300px;
 	 height: 300px;
-	 top: 768px;
-	 left: 20px;
+	 top: 421px;
+	 left: 18px;
 	
 	 position: absolute;
 	 
@@ -76,8 +76,8 @@
 	 z-index: 6;
 	 width: 171px;
 	 height: 13px;
-	 top: 408px;
-	 left: 20px;
+	 top: 66px;
+	 left: 359px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -88,8 +88,8 @@
 	 z-index: 6;
 	 width: 300px;
 	 height: 300px;
-	 top: 426px;
-	 left: 20px;
+	 top: 84px;
+	 left: 359px;
 	
 	 position: absolute;
 	 
@@ -100,7 +100,7 @@
 	 width: 80px;
 	 height: 13px;
 	 top: 66px;
-	 left: 20px;
+	 left: 22px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -112,7 +112,7 @@
 	 width: 300px;
 	 height: 300px;
 	 top: 84px;
-	 left: 20px;
+	 left: 22px;
 	
 	 position: absolute;
 	 
@@ -143,9 +143,9 @@
 
 #container1 {
 	 z-index: 4;
-	 width: 340px;
-	 height: 1772px;
-	 top: 19px;
+	 width: 681px;
+	 height: 1087px;
+	 top: 10px;
 	 left: 541px;
 	
 	 position: absolute;
@@ -156,7 +156,7 @@
 	 z-index: 3;
 	 width: 300px;
 	 top: 10px;
-	 bottom: 10px;
+	 bottom: 12px;
 	 left: 210px;
 	
 	 position: absolute;
@@ -167,7 +167,7 @@
 	 z-index: 1;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 10px;
+	 bottom: 12px;
 	 left: 10px;
 	
 	 position: absolute;
