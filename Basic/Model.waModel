@@ -20,8 +20,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 44,
-						"Y": 415
+						"X": 66,
+						"Y": 304
 					}
 				}
 			},
@@ -189,12 +189,45 @@
 						"Y": 1729
 					}
 				}
+			},
+			"State": {
+				"panelColor": "#4FA997",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 84,
+						"Y": 2277
+					},
+					"pathVisible": true
+				}
+			},
+			"StateMachine": {
+				"panelColor": "#E5B9B7",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 82,
+						"Y": 2076
+					},
+					"pathVisible": true
+				}
+			},
+			"AllowedState": {
+				"panelColor": "#B7DDE8",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 578,
+						"Y": 2299
+					},
+					"pathVisible": true
+				}
 			}
 		},
 		"model": {
 			"scriptMode": "manual",
-			"workspaceLeft": 27,
-			"workspaceTop": 0,
+			"workspaceLeft": 0,
+			"workspaceTop": 1860,
 			"lastScriptLocation": {
 				"Item": {
 					"method": "Item/Item-methods.js"
@@ -829,9 +862,10 @@
 				},
 				{
 					"name": "Date",
+					"kind": "storage",
 					"scope": "public",
 					"type": "date",
-					"kind": "storage"
+					"simpleDate": false
 				}
 			]
 		},
@@ -1017,6 +1051,105 @@
 					"type": "SalesOrderCollection",
 					"reversePath": true,
 					"path": "Shop"
+				}
+			]
+		},
+		{
+			"collectionName": "StateCollection",
+			"className": "State",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "Name",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "StateMachine",
+					"scope": "public",
+					"path": "StateMachine",
+					"type": "StateMachine",
+					"kind": "relatedEntity"
+				},
+				{
+					"name": "allowedStateCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "From",
+					"type": "AllowedStateCollection",
+					"kind": "relatedEntities"
+				},
+				{
+					"name": "allowedStateCollection_1",
+					"scope": "public",
+					"reversePath": true,
+					"path": "To",
+					"type": "AllowedStateCollection",
+					"kind": "relatedEntities"
+				}
+			]
+		},
+		{
+			"collectionName": "StateMachineCollection",
+			"className": "StateMachine",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "Name",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "stateCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "StateMachine",
+					"type": "StateCollection",
+					"kind": "relatedEntities"
+				}
+			]
+		},
+		{
+			"collectionName": "AllowedStateCollection",
+			"className": "AllowedState",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "From",
+					"scope": "public",
+					"path": "State",
+					"type": "State",
+					"kind": "relatedEntity"
+				},
+				{
+					"name": "To",
+					"scope": "public",
+					"path": "State",
+					"type": "State",
+					"kind": "relatedEntity"
 				}
 			]
 		}
