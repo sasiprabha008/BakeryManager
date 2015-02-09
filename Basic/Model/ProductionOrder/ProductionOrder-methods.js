@@ -6,9 +6,15 @@ model.ProductionOrder.methods.generateFromPlannedSalesOrders = function() {
 	var poList = [];
 	
 	salesOrders.distinctValues("Shop.Factory").forEach(function(factory){
-		poList.push(new ds.ProductionOrder({Factory:factory}));
-		ds.SalesOrderLine.query("");
+		var po = new ds.ProductionOrder({Factory:factory});
+		poList.push(po);
+		var soLines = ds.SalesOrderLine.query("Order.Shop.Factory == :1 and Order.State == 'planned'",factory);
+		
+		soLines.distinctValues("Item").forEach(function(item){
+			soLines.query("Item == :1",item).sum("Quantity");
+		});
+		
 	});
-	salesOrders.
+	
 	 
 };
