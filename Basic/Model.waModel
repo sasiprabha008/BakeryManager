@@ -20,8 +20,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 42,
-						"Y": 300
+						"X": 45,
+						"Y": 313
 					}
 				}
 			},
@@ -218,8 +218,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 578,
-						"Y": 2299
+						"X": 507,
+						"Y": 2281
 					}
 				}
 			}
@@ -238,6 +238,12 @@
 				},
 				"ProductionOrder": {
 					"method": "ProductionOrder/ProductionOrder-methods.js"
+				},
+				"ProductionOrderLine": {
+					"events": "ProductionOrderLine/ProductionOrderLine-events.js"
+				},
+				"SalesOrderLine": {
+					"events": "SalesOrderLine/SalesOrderLine-events.js"
 				}
 			}
 		}
@@ -610,7 +616,21 @@
 					"name": "Quantity",
 					"kind": "storage",
 					"scope": "public",
-					"type": "number"
+					"type": "number",
+					"events": [
+						{
+							"kind": "set",
+							"from": "$mainModel.ProductionOrderLine.Quantity.events.set",
+							"userDefined": true
+						}
+					]
+				}
+			],
+			"events": [
+				{
+					"kind": "save",
+					"from": "$mainModel.ProductionOrderLine.events.save",
+					"userDefined": true
 				}
 			]
 		},
@@ -1183,5 +1203,6 @@
 				}
 			]
 		}
-	]
+	],
+	"type": []
 }
