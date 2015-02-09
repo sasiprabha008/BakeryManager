@@ -185,8 +185,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 350,
-						"Y": 1765
+						"X": 360,
+						"Y": 1729
 					}
 				}
 			}
@@ -826,6 +826,12 @@
 					"type": "SalesOrderLineCollection",
 					"reversePath": true,
 					"path": "Order"
+				},
+				{
+					"name": "Date",
+					"scope": "public",
+					"type": "date",
+					"kind": "storage"
 				}
 			]
 		},
@@ -1014,5 +1020,6 @@
 				}
 			]
 		}
-	]
+	],
+	"type": []
 }
