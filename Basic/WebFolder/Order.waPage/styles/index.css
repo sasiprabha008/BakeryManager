@@ -3,45 +3,138 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#label23 {
+	 z-index: 7;
+	 width: 75px;
+	 height: 13px;
+	 top: 114px;
+	 left: 17px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField9 {
+	 z-index: 7;
+	 width: 130px;
+	 height: 22px;
+	 top: 110px;
+	 left: 97px;
+	
+	 position: absolute;
+	 
+}
+
+#label22 {
+	 width: 50px;
+	 height: 13px;
+	 top: 59px;
+	 left: 19px;
+	
+	 position: absolute;
+	 min-width: 50px;
+	 z-index: 19;
+	 
+}
+
+#label21 {
+	 width: 50px;
+	 height: 13px;
+	 top: 22px;
+	 left: 19px;
+	
+	 position: absolute;
+	 text-align: left;
+	 min-width: 50px;
+	 z-index: 18;
+	 
+}
+
+#label3 {
+	 z-index: 7;
+	 width: 95px;
+	 height: 13px;
+	 top: 243px;
+	 left: 7px;
+	
+	 position: absolute;
+	 
+}
+
+#textField3 {
+	 z-index: 12;
+	 width: 130px;
+	 height: 22px;
+	 top: 75px;
+	 left: 401px;
+	
+	 position: absolute;
+	 
+}
+
+#label10 {
+	 z-index: 12;
+	 width: 75px;
+	 height: 13px;
+	 top: 79px;
+	 left: 321px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#id_qry_so_date .datepickerSelected {
+	 color: rgb(0, 0, 0);
+	 background-color: rgb(160, 160, 160);
+	 
+}
+
 #label14 {
 	 z-index: 17;
-	 width: 29px;
+	 width: 50px;
 	 height: 13px;
-	 top: 57px;
+	 top: 55px;
 	 left: 15px;
 	
 	 position: absolute;
+	 min-width: 50px;
 	 
 }
 
 #label13 {
 	 z-index: 15;
-	 width: 28px;
+	 width: 50px;
 	 height: 13px;
-	 top: 15px;
-	 left: 12px;
+	 top: 18px;
+	 left: 15px;
 	
 	 position: absolute;
+	 text-align: left;
+	 min-width: 50px;
 	 
 }
 
 #label2 {
 	 z-index: 7;
-	 width: 32px;
+	 width: 100px;
 	 height: 13px;
 	 top: 255px;
 	 left: 22px;
 	
 	 position: absolute;
+	 max-width: 100px;
+	 min-width: 1000px;
 	 
 }
 
 #label18 {
 	 z-index: 6;
-	 width: 94px;
-	 height: 16px;
-	 top: 25px;
-	 left: 607px;
+	 width: 103px;
+	 height: 13px;
+	 top: 246px;
+	 left: 759px;
 	
 	 position: absolute;
 	 
@@ -49,10 +142,10 @@
 
 #dataGrid8 {
 	 z-index: 6;
-	 width: 300px;
-	 height: 698px;
-	 top: 46px;
-	 left: 607px;
+	 width: 240px;
+	 height: 542px;
+	 top: 264px;
+	 left: 759px;
 	
 	 position: absolute;
 	 
@@ -60,10 +153,10 @@
 
 #label17 {
 	 z-index: 5;
-	 width: 108px;
-	 height: 16px;
-	 top: 23px;
-	 left: 295px;
+	 width: 121px;
+	 height: 13px;
+	 top: 245px;
+	 left: 449px;
 	
 	 position: absolute;
 	 
@@ -105,8 +198,8 @@
 #label16 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -128,8 +221,8 @@
 #label15 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -150,10 +243,10 @@
 
 #container9 {
 	 z-index: 4;
-	 width: 300px;
-	 height: 184px;
-	 top: 565px;
-	 left: 295px;
+	 width: NaNpx;
+	 height: NaNpx;
+	 top: 620px;
+	 left: 450px;
 	
 	 position: absolute;
 	 
@@ -161,10 +254,10 @@
 
 #dataGrid5 {
 	 z-index: 3;
-	 width: 300px;
-	 height: 510px;
-	 top: 44px;
-	 left: 295px;
+	 width: NaNpx;
+	 height: NaNpx;
+	 top: 263px;
+	 left: 449px;
 	
 	 position: absolute;
 	 
@@ -172,9 +265,9 @@
 
 #dataGrid4 {
 	 z-index: 2;
-	 width: 276px;
-	 height: 580px;
-	 top: 175px;
+	 width: 427px;
+	 height: 542px;
+	 top: 261px;
 	 left: 7px;
 	
 	 position: absolute;
@@ -185,8 +278,8 @@
 	 z-index: 5;
 	 width: 92px;
 	 height: 22px;
-	 top: 114px;
-	 left: 21px;
+	 top: 157px;
+	 left: 16px;
 	
 	 position: absolute;
 	 
@@ -195,8 +288,8 @@
 #label9 {
 	 z-index: 3;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -218,8 +311,8 @@
 #label4 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -240,10 +333,10 @@
 
 #container7 {
 	 z-index: 1;
-	 width: 279px;
-	 height: 155px;
-	 top: 9px;
-	 left: 5px;
+	 width: 556px;
+	 height: 198px;
+	 top: 4px;
+	 left: 444px;
 	
 	 position: absolute;
 	 
@@ -251,45 +344,14 @@
 
 #label1 {
 	 z-index: 5;
-	 width: 89px;
+	 width: 100px;
 	 height: 13px;
 	 top: 254px;
 	 left: 418px;
 	
 	 position: absolute;
-	 
-}
-
-#container5 {
-	 z-index: 6;
-	 width: 1014px;
-	 top: 28px;
-	 bottom: 5px;
-	 left: 5px;
-	
-	 position: absolute;
-	 
-}
-
-#richText3 {
-	 z-index: 1;
-	 width: 66px;
-	 height: 23px;
-	 top: 0px;
-	 left: 0px;
-	
-	 position: absolute;
-	 
-}
-
-#menuItem3 {
-	 z-index: 3;
-	 width: 66px;
-	 height: 23px;
-	 top: 0px;
-	 left: 0px;
-	
-	 position: absolute;
+	 max-width: 100px;
+	 min-width: 100px;
 	 
 }
 
@@ -328,10 +390,10 @@
 
 #container1 {
 	 z-index: 4;
-	 width: 1014px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
+	 right: 5px;
 	
 	 position: absolute;
 	 
@@ -381,7 +443,7 @@
 }
 
 #tabView1 {
-	 z-index: 12;
+	 z-index: 8;
 	 width: 1024px;
 	 height: 850px;
 	 top: 10px;
@@ -416,8 +478,8 @@
 #label12 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -439,8 +501,8 @@
 #label11 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -482,7 +544,7 @@
 }
 
 #button1 {
-	 z-index: 9;
+	 z-index: 8;
 	 width: 92px;
 	 height: 22px;
 	 top: 183px;
@@ -496,7 +558,7 @@
 	 z-index: 8;
 	 width: 75px;
 	 height: 13px;
-	 top: 152px;
+	 top: 133px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -508,7 +570,7 @@
 	 z-index: 8;
 	 width: 130px;
 	 height: 22px;
-	 top: 148px;
+	 top: 129px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -518,8 +580,8 @@
 #label7 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 16px;
-	 top: 109px;
+	 height: 13px;
+	 top: 79px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -531,7 +593,7 @@
 	 z-index: 6;
 	 width: 130px;
 	 height: 22px;
-	 top: 106px;
+	 top: 75px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -541,8 +603,8 @@
 #label6 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -554,7 +616,7 @@
 	 z-index: 4;
 	 width: 130px;
 	 height: 22px;
-	 top: 64px;
+	 top: 21px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -564,9 +626,9 @@
 #label5 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
+	 height: 13px;
 	 top: 24px;
-	 left: 15px;
+	 left: 321px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -577,8 +639,8 @@
 	 z-index: 2;
 	 width: 164px;
 	 height: 24px;
-	 top: 20px;
-	 left: 95px;
+	 top: 19px;
+	 left: 401px;
 	
 	 position: absolute;
 	 
@@ -610,7 +672,7 @@
 	 z-index: 2;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 24px;
+	 bottom: 28px;
 	 left: 10px;
 	
 	 position: absolute;
@@ -619,10 +681,10 @@
 
 #id_qry_so_time {
 	 z-index: 17;
-	 width: 130px;
-	 height: 22px;
-	 top: 53px;
-	 left: 49px;
+	 width: 83px;
+	 height: 20px;
+	 top: 52px;
+	 left: 70px;
 	
 	 position: absolute;
 	 
@@ -630,10 +692,10 @@
 
 #id_qry_so_shop {
 	 z-index: 15;
-	 width: 164px;
-	 height: 24px;
-	 top: 10px;
-	 left: 45px;
+	 width: 127px;
+	 height: 23px;
+	 top: 13px;
+	 left: 70px;
 	
 	 position: absolute;
 	 
@@ -645,6 +707,44 @@
 	 height: 150px;
 	 top: 11px;
 	 left: 221px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-color: rgb(137, 137, 137);
+	 border-left-color: rgb(137, 137, 137);
+	 border-right-color: rgb(137, 137, 137);
+	 border-bottom-color: rgb(137, 137, 137);
+	 
+}
+
+#id_btn_po_search {
+	 width: 92px;
+	 height: 22px;
+	 top: 207px;
+	 left: 25px;
+	
+	 position: absolute;
+	 z-index: 17;
+	 
+}
+
+#id_btn_po_clear {
+	 width: 92px;
+	 height: 22px;
+	 top: 206px;
+	 left: 131px;
+	
+	 position: absolute;
+	 z-index: 21;
+	 
+}
+
+#btn_clear {
+	 z-index: 18;
+	 width: 92px;
+	 height: 22px;
+	 top: 202px;
+	 left: 127px;
 	
 	 position: absolute;
 	 
@@ -661,14 +761,47 @@
 	 
 }
 
-#btn_clear {
-	 z-index: 18;
-	 width: 92px;
-	 height: 22px;
-	 top: 202px;
-	 left: 127px;
+#id_qry_po_shop {
+	 width: 127px;
+	 height: 23px;
+	 top: 17px;
+	 left: 74px;
 	
 	 position: absolute;
+	 z-index: 18;
+	 
+}
+
+#id_qry_po_time {
+	 width: 83px;
+	 height: 20px;
+	 top: 56px;
+	 left: 74px;
+	
+	 position: absolute;
+	 z-index: 20;
+	 
+}
+
+#id_qry_po_date {
+	 width: 180px;
+	 height: 150px;
+	 top: 15px;
+	 left: 225px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-color: rgb(137, 137, 137);
+	 border-left-color: rgb(137, 137, 137);
+	 border-right-color: rgb(137, 137, 137);
+	 border-bottom-color: rgb(137, 137, 137);
+	 z-index: 17;
+	 
+}
+
+#id_qry_po_date .datepickerSelected {
+	 color: rgb(0, 0, 0);
+	 background-color: rgb(160, 160, 160);
 	 
 }
 
