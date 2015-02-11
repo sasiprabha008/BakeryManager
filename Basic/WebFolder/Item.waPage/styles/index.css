@@ -196,10 +196,10 @@
 
 #container1 {
 	 z-index: 4;
-	 width: 836px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
+	 right: 5px;
 	
 	 position: absolute;
 	 

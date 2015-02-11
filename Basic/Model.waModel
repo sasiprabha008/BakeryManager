@@ -1,1276 +1,1513 @@
-﻿{
-	"toJSON": true,
-	"extraProperties": {
-		"version": "2",
-		"classes": {
-			"Factory": {
-				"panelColor": "#B7DDE8",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 42,
-						"Y": 616
+
+{
+	"toJSON" : true,
+	"extraProperties" : 
+	{
+		"version" : "2",
+		"classes" : 
+		{
+			"Factory" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 42,
+						"Y" : 616
 					}
 				}
 			},
-			"SalesOrder": {
-				"panelColor": "#D88CFF",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 45,
-						"Y": 313
+			"SalesOrder" : 
+			{
+				"panelColor" : "#D88CFF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 38,
+						"Y" : 298
 					}
 				}
 			},
-			"SalesOrderLine": {
-				"panelColor": "#D7E3BC",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 587,
-						"Y": 582
+			"SalesOrderLine" : 
+			{
+				"panelColor" : "#D7E3BC",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 587,
+						"Y" : 582
 					}
 				}
 			},
-			"ProductionOrder": {
-				"panelColor": "#D88CFF",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 64,
-						"Y": 1002
+			"ProductionOrder" : 
+			{
+				"panelColor" : "#D88CFF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 64,
+						"Y" : 1002
 					}
 				}
 			},
-			"ProductionOrderLine": {
-				"panelColor": "#eee",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 72,
-						"Y": 1304
+			"ProductionOrderLine" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 77,
+						"Y" : 1314
 					}
 				}
 			},
-			"Recipe": {
-				"panelColor": "#8DB3E2",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 641,
-						"Y": 858
+			"Recipe" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 641,
+						"Y" : 858
 					}
 				}
 			},
-			"RecipeLine": {
-				"panelColor": "#76923C",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 846,
-						"Y": 1205
+			"RecipeLine" : 
+			{
+				"panelColor" : "#76923C",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 846,
+						"Y" : 1205
 					}
 				}
 			},
-			"MixingOrderLine": {
-				"panelColor": "#fff",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 383,
-						"Y": 1297
+			"MixingOrderLine" : 
+			{
+				"panelColor" : "#fff",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 383,
+						"Y" : 1297
 					}
 				}
 			},
-			"SellPriceVersion": {
-				"panelColor": "#76923C",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 941,
-						"Y": 36
+			"SellPriceVersion" : 
+			{
+				"panelColor" : "#76923C",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 941,
+						"Y" : 36
 					}
 				}
 			},
-			"SellPrice": {
-				"panelColor": "#BFBFBF",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 921,
-						"Y": 292
+			"SellPrice" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 921,
+						"Y" : 292
 					}
 				}
 			},
-			"PurchaseOrder": {
-				"panelColor": "#D7E3BC",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 59,
-						"Y": 1522
+			"PurchaseOrder" : 
+			{
+				"panelColor" : "#D7E3BC",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 59,
+						"Y" : 1522
 					}
 				}
 			},
-			"PurchasePriceVersion": {
-				"panelColor": "#C4BD97",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 887,
-						"Y": 1387
+			"PurchasePriceVersion" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 887,
+						"Y" : 1387
 					}
 				}
 			},
-			"PurchasePrice": {
-				"panelColor": "#70CCC2",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 649,
-						"Y": 1558
+			"PurchasePrice" : 
+			{
+				"panelColor" : "#70CCC2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 649,
+						"Y" : 1558
 					}
 				}
 			},
-			"FactoryInventory": {
-				"panelColor": "#4FA997",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 861,
-						"Y": 630
+			"FactoryInventory" : 
+			{
+				"panelColor" : "#4FA997",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 861,
+						"Y" : 630
 					}
 				}
 			},
-			"Shop": {
-				"panelColor": "#8DB3E2",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 36,
-						"Y": 23
+			"Shop" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 36,
+						"Y" : 23
 					}
 				}
 			},
-			"Item": {
-				"panelColor": "#D8D8D8",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 411,
-						"Y": 17
+			"Item" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 411,
+						"Y" : 17
 					}
 				}
 			},
-			"PurchaseOrderLine": {
-				"panelColor": "#eee",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 360,
-						"Y": 1729
+			"PurchaseOrderLine" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 360,
+						"Y" : 1729
 					}
 				}
 			},
-			"State": {
-				"panelColor": "#4FA997",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 84,
-						"Y": 2277
+			"State" : 
+			{
+				"panelColor" : "#4FA997",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 84,
+						"Y" : 2277
 					}
 				}
 			},
-			"StateMachine": {
-				"panelColor": "#E5B9B7",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 82,
-						"Y": 2076
+			"StateMachine" : 
+			{
+				"panelColor" : "#E5B9B7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 82,
+						"Y" : 2076
 					}
 				}
 			},
-			"AllowedState": {
-				"panelColor": "#B7DDE8",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 507,
-						"Y": 2281
+			"AllowedState" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 507,
+						"Y" : 2281
 					}
 				}
 			}
 		},
-		"model": {
-			"scriptMode": "manual",
-			"workspaceLeft": 0,
-			"workspaceTop": 0,
-			"lastScriptLocation": {
-				"Item": {
-					"method": "Item/Item-methods.js"
+		"model" : 
+		{
+			"scriptMode" : "manual",
+			"workspaceLeft" : 0,
+			"workspaceTop" : 0,
+			"lastScriptLocation" : 
+			{
+				"Item" : 
+				{
+					"method" : "Item/Item-methods.js"
 				},
-				"PurchaseOrderLine": {
-					"computed": "PurchaseOrderLine/PurchaseOrderLine-events.js",
-					"method": "PurchaseOrderLine/PurchaseOrderLine-methods.js"
+				"PurchaseOrderLine" : 
+				{
+					"computed" : "PurchaseOrderLine/PurchaseOrderLine-events.js",
+					"method" : "PurchaseOrderLine/PurchaseOrderLine-methods.js"
 				},
-				"ProductionOrder": {
-					"method": "ProductionOrder/ProductionOrder-methods.js"
+				"ProductionOrder" : 
+				{
+					"method" : "ProductionOrder/ProductionOrder-methods.js"
 				},
-				"ProductionOrderLine": {
-					"events": "ProductionOrderLine/ProductionOrderLine-events.js"
+				"ProductionOrderLine" : 
+				{
+					"events" : "ProductionOrderLine/ProductionOrderLine-events.js"
 				},
-				"SalesOrderLine": {
-					"events": "SalesOrderLine/SalesOrderLine-events.js"
+				"SalesOrderLine" : 
+				{
+					"events" : "SalesOrderLine/SalesOrderLine-events.js"
 				},
-				"Recipe": {
-					"computed": "Recipe/Recipe-events.js"
+				"Recipe" : 
+				{
+					"computed" : "Recipe/Recipe-events.js"
 				}
 			}
 		}
 	},
-	"dataClasses": [
+	"dataClasses" : 
+	[
 		{
-			"name": "AllowedState",
-			"className": "AllowedState",
-			"collectionName": "AllowedStateCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "AllowedState",
+			"className" : "AllowedState",
+			"collectionName" : "AllowedStateCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "From",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "State",
-					"path": "State"
+					"name" : "From",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "State",
+					"path" : "State"
 				},
 				{
-					"name": "To",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "State",
-					"path": "State"
-				}
-			]
-		},
-		{
-			"name": "Factory",
-			"className": "Factory",
-			"collectionName": "FactoryCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "shopCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "branchCollection",
-					"scope": "public",
-					"type": "ShopCollection",
-					"reversePath": true,
-					"path": "Factory"
-				},
-				{
-					"name": "purchasePriceVersionCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PurchasePriceVersionCollection",
-					"reversePath": true,
-					"path": "Factory"
-				},
-				{
-					"name": "kitchenInventoryItemCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "kitchenInventoryCollection",
-					"scope": "public",
-					"type": "FactoryInventoryCollection",
-					"reversePath": true,
-					"path": "Factory"
-				},
-				{
-					"name": "productionOrderCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ProductionOrderCollection",
-					"reversePath": true,
-					"path": "Factory"
-				},
-				{
-					"name": "purchaseOrderCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PurchaseOrderCollection",
-					"reversePath": true,
-					"path": "Factory"
-				}
-			]
-		},
-		{
-			"name": "FactoryInventory",
-			"className": "FactoryInventory",
-			"collectionName": "FactoryInventoryCollection",
-			"matchTable": "FactoryInventoryItem,InventoryItem",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Amount",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "Factory",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Factory",
-					"path": "Factory"
-				},
-				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
-				}
-			]
-		},
-		{
-			"name": "Item",
-			"className": "Item",
-			"collectionName": "ItemCollection",
-			"matchTable": "SalesItem,Item",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "sellPriceCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SellPriceCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "salesOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SalesOrderLineCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "productionOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ProductionOrderLineCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "recipeLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "RecipeLineCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "kitchenInventoryCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "FactoryInventoryCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "Daily",
-					"kind": "storage",
-					"scope": "public",
-					"type": "bool"
-				},
-				{
-					"name": "Sales",
-					"kind": "storage",
-					"scope": "public",
-					"type": "bool"
-				},
-				{
-					"name": "purchaseOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PurchaseOrderLineCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "purchasePriceCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PurchasePriceCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
-					"name": "Weight",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "Recipe",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Recipe",
-					"path": "Recipe"
-				}
-			]
-		},
-		{
-			"name": "MixingOrderLine",
-			"className": "MixingOrderLine",
-			"collectionName": "MixingOrderLineCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Recipe",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Recipe",
-					"path": "Recipe"
-				},
-				{
-					"name": "Quantity",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "productionOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ProductionOrderLineCollection",
-					"reversePath": true,
-					"path": "MixingOrderLine"
-				},
-				{
-					"name": "Order",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "ProductionOrder",
-					"path": "ProductionOrder"
-				}
-			]
-		},
-		{
-			"name": "ProductionOrder",
-			"className": "ProductionOrder",
-			"collectionName": "ProductionOrderCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Factory",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Factory",
-					"path": "Factory"
-				},
-				{
-					"name": "Date",
-					"kind": "storage",
-					"scope": "public",
-					"type": "date",
-					"simpleDate": false
-				},
-				{
-					"name": "productionOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ProductionOrderLineCollection",
-					"reversePath": true,
-					"path": "Order"
-				},
-				{
-					"name": "mixingOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "MixingOrderLineCollection",
-					"reversePath": true,
-					"path": "Order"
+					"name" : "To",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "State",
+					"path" : "State"
 				}
 			],
-			"methods": [
+			"key" : 
+			[
 				{
-					"name": "generateFromPlannedSalesOrders",
-					"applyTo": "dataClass",
-					"scope": "publicOnServer",
-					"from": "$mainModel.ProductionOrder.methods.generateFromPlannedSalesOrders",
-					"userDefined": true
-				},
-				{
-					"name": "generateMixingOrder",
-					"applyTo": "entity",
-					"scope": "publicOnServer",
-					"from": "$mainModel.ProductionOrder.entityMethods.generateMixingOrder",
-					"userDefined": true
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "ProductionOrderLine",
-			"className": "ProductionOrderLine",
-			"collectionName": "ProductionOrderLineCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Factory",
+			"className" : "Factory",
+			"collectionName" : "FactoryCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "Order",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "ProductionOrder",
-					"path": "ProductionOrder"
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item",
-					"events": [
+					"name" : "shopCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "branchCollection",
+					"scope" : "public",
+					"type" : "ShopCollection",
+					"reversePath" : true,
+					"path" : "Factory"
+				},
+				{
+					"name" : "purchasePriceVersionCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PurchasePriceVersionCollection",
+					"reversePath" : true,
+					"path" : "Factory"
+				},
+				{
+					"name" : "kitchenInventoryItemCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "kitchenInventoryCollection",
+					"scope" : "public",
+					"type" : "FactoryInventoryCollection",
+					"reversePath" : true,
+					"path" : "Factory"
+				},
+				{
+					"name" : "productionOrderCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ProductionOrderCollection",
+					"reversePath" : true,
+					"path" : "Factory"
+				},
+				{
+					"name" : "purchaseOrderCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PurchaseOrderCollection",
+					"reversePath" : true,
+					"path" : "Factory"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "FactoryInventory",
+			"className" : "FactoryInventory",
+			"collectionName" : "FactoryInventoryCollection",
+			"matchTable" : "FactoryInventoryItem,InventoryItem",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Amount",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Factory",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Factory",
+					"path" : "Factory"
+				},
+				{
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Item",
+			"className" : "Item",
+			"collectionName" : "ItemCollection",
+			"matchTable" : "SalesItem,Item",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "sellPriceCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SellPriceCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "salesOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SalesOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "productionOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ProductionOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "recipeLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "RecipeLineCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "kitchenInventoryCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "FactoryInventoryCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "Daily",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "Sales",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "purchaseOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PurchaseOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "purchasePriceCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PurchasePriceCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "Weight",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Recipe",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Recipe",
+					"path" : "Recipe"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "MixingOrderLine",
+			"className" : "MixingOrderLine",
+			"collectionName" : "MixingOrderLineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Recipe",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Recipe",
+					"path" : "Recipe"
+				},
+				{
+					"name" : "Quantity",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "productionOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ProductionOrderLineCollection",
+					"reversePath" : true,
+					"path" : "MixingOrderLine"
+				},
+				{
+					"name" : "Order",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "ProductionOrder",
+					"path" : "ProductionOrder"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ProductionOrder",
+			"className" : "ProductionOrder",
+			"collectionName" : "ProductionOrderCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Factory",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Factory",
+					"path" : "Factory"
+				},
+				{
+					"name" : "Date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "productionOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ProductionOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Order"
+				},
+				{
+					"name" : "mixingOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "MixingOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Order"
+				},
+				{
+					"name" : "Time",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"methods" : 
+			[
+				{
+					"name" : "generateFromPlannedSalesOrders",
+					"applyTo" : "dataClass",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.ProductionOrder.methods.generateFromPlannedSalesOrders",
+					"userDefined" : true
+				},
+				{
+					"name" : "generateMixingOrder",
+					"applyTo" : "entity",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.ProductionOrder.entityMethods.generateMixingOrder",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "ProductionOrderLine",
+			"className" : "ProductionOrderLine",
+			"collectionName" : "ProductionOrderLineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Order",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "ProductionOrder",
+					"path" : "ProductionOrder"
+				},
+				{
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item",
+					"events" : 
+					[
 						{
-							"kind": "set",
-							"from": "$mainModel.ProductionOrderLine.Item.events.set",
-							"userDefined": true
-						}
-					]
-				},
-				{
-					"name": "Quantity",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number",
-					"events": [
-						{
-							"kind": "set",
-							"from": "$mainModel.ProductionOrderLine.Quantity.events.set"
+							"kind" : "save",
+							"from" : "$mainModel.ProductionOrderLine.Item.events.save",
+							"userDefined" : true
 						},
 						{
-							"kind": "set",
-							"from": "$mainModel.ProductionOrderLine.Quantity.events.set",
-							"userDefined": true
+							"kind" : "validate",
+							"from" : "$mainModel.ProductionOrderLine.Item.events.validate",
+							"userDefined" : true
 						}
 					]
 				},
 				{
-					"name": "MixingOrderLine",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "MixingOrderLine",
-					"path": "MixingOrderLine"
-				}
-			],
-			"events": [
-				{
-					"kind": "save",
-					"from": "$mainModel.ProductionOrderLine.events.save"
-				},
-				{
-					"kind": "save",
-					"from": "$mainModel.ProductionOrderLine.events.save",
-					"userDefined": true
-				}
-			]
-		},
-		{
-			"name": "PurchaseOrder",
-			"className": "PurchaseOrder",
-			"collectionName": "PurchaseOrderCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Factory",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Factory",
-					"path": "Factory"
-				},
-				{
-					"name": "purchaseOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "PurchaseOrderLineCollection",
-					"reversePath": true,
-					"path": "Order"
-				}
-			]
-		},
-		{
-			"name": "PurchaseOrderLine",
-			"className": "PurchaseOrderLine",
-			"collectionName": "PurchaseOrderLineCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Order",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "PurchaseOrder",
-					"path": "PurchaseOrder"
-				},
-				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
-				},
-				{
-					"name": "Quantity",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "Price",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "Amount",
-					"kind": "calculated",
-					"scope": "public",
-					"type": "number",
-					"scriptKind": "javascript",
-					"onGet": [
+					"name" : "Quantity",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number",
+					"events" : 
+					[
 						{
-							"from": "$mainModel.PurchaseOrderLine.Amount.onGet",
-							"userDefined": true
-						}
-					]
-				}
-			],
-			"methods": [
-				{
-					"name": "method1",
-					"applyTo": "entity",
-					"scope": "publicOnServer",
-					"from": "$mainModel.PurchaseOrderLine.entityMethods.method1",
-					"userDefined": true
-				}
-			]
-		},
-		{
-			"name": "PurchasePrice",
-			"className": "PurchasePrice",
-			"collectionName": "PurchasePriceCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
-				},
-				{
-					"name": "Price",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				}
-			]
-		},
-		{
-			"name": "PurchasePriceVersion",
-			"className": "PurchasePriceVersion",
-			"collectionName": "PurchasePriceVersionCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Factory",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Factory",
-					"path": "Factory"
-				}
-			]
-		},
-		{
-			"name": "Recipe",
-			"className": "Recipe",
-			"collectionName": "RecipeCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "Code",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "recipeLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "RecipeLineCollection",
-					"reversePath": true,
-					"path": "Recipe"
-				},
-				{
-					"name": "Description",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "mixingOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "MixingOrderLineCollection",
-					"reversePath": true,
-					"path": "Recipe"
-				},
-				{
-					"name": "Weight",
-					"kind": "calculated",
-					"scope": "public",
-					"type": "number",
-					"scriptKind": "javascript",
-					"onGet": [
-						{
-							"from": "$mainModel.Recipe.Weight.onGet",
-							"userDefined": true
-						}
-					]
-				},
-				{
-					"name": "itemCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "ItemCollection",
-					"reversePath": true,
-					"path": "Recipe"
-				}
-			]
-		},
-		{
-			"name": "RecipeLine",
-			"className": "RecipeLine",
-			"collectionName": "RecipeLineCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Recipe",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Recipe",
-					"path": "Recipe"
-				},
-				{
-					"name": "Weight",
-					"kind": "storage",
-					"matchColumn": "Quantity",
-					"scope": "public",
-					"type": "number"
-				},
-				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
-				}
-			]
-		},
-		{
-			"name": "SalesOrder",
-			"className": "SalesOrder",
-			"collectionName": "SalesOrderCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Shop",
-					"kind": "relatedEntity",
-					"matchColumn": "Branch",
-					"scope": "public",
-					"type": "Shop",
-					"path": "Shop"
-				},
-				{
-					"name": "OrderNo",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
-				{
-					"name": "salesOrderLineCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SalesOrderLineCollection",
-					"reversePath": true,
-					"path": "Order"
-				},
-				{
-					"name": "Date",
-					"kind": "storage",
-					"scope": "public",
-					"type": "date",
-					"simpleDate": false
-				},
-				{
-					"name": "State",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				}
-			]
-		},
-		{
-			"name": "SalesOrderLine",
-			"className": "SalesOrderLine",
-			"collectionName": "SalesOrderLineCollection",
-			"scope": "public",
-			"attributes": [
-				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
-				},
-				{
-					"name": "Order",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "SalesOrder",
-					"path": "SalesOrder"
-				},
-				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
-				},
-				{
-					"name": "Quantity",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number",
-					"events": [
-						{
-							"kind": "set",
-							"from": "$mainModel.SalesOrderLine.Quantity.events.set"
+							"kind" : "set",
+							"from" : "$mainModel.ProductionOrderLine.Quantity.events.set"
 						},
 						{
-							"kind": "set",
-							"from": "$mainModel.SalesOrderLine.Quantity.events.set",
-							"userDefined": true
+							"kind" : "set",
+							"from" : "$mainModel.ProductionOrderLine.Quantity.events.set",
+							"userDefined" : true
 						}
 					]
 				},
 				{
-					"name": "Price",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
+					"name" : "MixingOrderLine",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "MixingOrderLine",
+					"path" : "MixingOrderLine"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "save",
+					"from" : "$mainModel.ProductionOrderLine.events.save"
 				},
 				{
-					"name": "Amount",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
+					"kind" : "save",
+					"from" : "$mainModel.ProductionOrderLine.events.save",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "SellPrice",
-			"className": "SellPrice",
-			"collectionName": "SellPriceCollection",
-			"matchTable": "Price",
-			"scope": "public",
-			"attributes": [
+			"name" : "PurchaseOrder",
+			"className" : "PurchaseOrder",
+			"collectionName" : "PurchaseOrderCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
+					"name" : "Factory",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Factory",
+					"path" : "Factory"
 				},
 				{
-					"name": "Price",
-					"kind": "storage",
-					"scope": "public",
-					"type": "number"
-				},
+					"name" : "purchaseOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PurchaseOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Order"
+				}
+			],
+			"key" : 
+			[
 				{
-					"name": "SellPriceVersion",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "SellPriceVersion",
-					"path": "SellPriceVersion"
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "SellPriceVersion",
-			"className": "SellPriceVersion",
-			"collectionName": "SellPriceVersionCollection",
-			"matchTable": "PriceVersion",
-			"scope": "public",
-			"attributes": [
+			"name" : "PurchaseOrderLine",
+			"className" : "PurchaseOrderLine",
+			"collectionName" : "PurchaseOrderLineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "shopCollection",
-					"kind": "relatedEntities",
-					"matchColumn": "branchCollection",
-					"scope": "public",
-					"type": "ShopCollection",
-					"reversePath": true,
-					"path": "PriceVersion"
+					"name" : "Order",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "PurchaseOrder",
+					"path" : "PurchaseOrder"
 				},
 				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
 				},
 				{
-					"name": "Date",
-					"kind": "storage",
-					"scope": "public",
-					"type": "date",
-					"simpleDate": false
+					"name" : "Quantity",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				},
 				{
-					"name": "sellPriceCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SellPriceCollection",
-					"reversePath": true,
-					"path": "SellPriceVersion"
+					"name" : "Price",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Amount",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "number",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.PurchaseOrderLine.Amount.onGet",
+							"userDefined" : true
+						}
+					]
+				}
+			],
+			"methods" : 
+			[
+				{
+					"name" : "method1",
+					"applyTo" : "entity",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.PurchaseOrderLine.entityMethods.method1",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "Shop",
-			"className": "Shop",
-			"collectionName": "ShopCollection",
-			"matchTable": "Shop,Branch",
-			"scope": "public",
-			"attributes": [
+			"name" : "PurchasePrice",
+			"className" : "PurchasePrice",
+			"collectionName" : "PurchasePriceCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
 				},
 				{
-					"name": "PriceVersion",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "SellPriceVersion",
-					"path": "SellPriceVersion"
-				},
+					"name" : "Price",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
 				{
-					"name": "Factory",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Factory",
-					"path": "Factory"
-				},
-				{
-					"name": "salesOrderCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "SalesOrderCollection",
-					"reversePath": true,
-					"path": "Shop"
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "State",
-			"className": "State",
-			"collectionName": "StateCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "PurchasePriceVersion",
+			"className" : "PurchasePriceVersion",
+			"collectionName" : "PurchasePriceVersionCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
-				},
+					"name" : "Factory",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Factory",
+					"path" : "Factory"
+				}
+			],
+			"key" : 
+			[
 				{
-					"name": "StateMachine",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "StateMachine",
-					"path": "StateMachine"
-				},
-				{
-					"name": "allowedStateCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "AllowedStateCollection",
-					"reversePath": true,
-					"path": "From"
-				},
-				{
-					"name": "allowedStateCollection_1",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "AllowedStateCollection",
-					"reversePath": true,
-					"path": "To"
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"name": "StateMachine",
-			"className": "StateMachine",
-			"collectionName": "StateMachineCollection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Recipe",
+			"className" : "Recipe",
+			"collectionName" : "RecipeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"unique": true,
-					"autosequence": true,
-					"type": "long",
-					"indexKind": "btree",
-					"primKey": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				},
 				{
-					"name": "stateCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "StateCollection",
-					"reversePath": true,
-					"path": "StateMachine"
+					"name" : "Code",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "recipeLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "RecipeLineCollection",
+					"reversePath" : true,
+					"path" : "Recipe"
+				},
+				{
+					"name" : "Description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "mixingOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "MixingOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Recipe"
+				},
+				{
+					"name" : "Weight",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "number",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.Recipe.Weight.onGet",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "itemCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "ItemCollection",
+					"reversePath" : true,
+					"path" : "Recipe"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "RecipeLine",
+			"className" : "RecipeLine",
+			"collectionName" : "RecipeLineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Recipe",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Recipe",
+					"path" : "Recipe"
+				},
+				{
+					"name" : "Weight",
+					"kind" : "storage",
+					"matchColumn" : "Quantity",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "SalesOrder",
+			"className" : "SalesOrder",
+			"collectionName" : "SalesOrderCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Shop",
+					"kind" : "relatedEntity",
+					"matchColumn" : "Branch",
+					"scope" : "public",
+					"type" : "Shop",
+					"path" : "Shop"
+				},
+				{
+					"name" : "OrderNo",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "salesOrderLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SalesOrderLineCollection",
+					"reversePath" : true,
+					"path" : "Order"
+				},
+				{
+					"name" : "Date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "State",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "Time",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "SalesOrderLine",
+			"className" : "SalesOrderLine",
+			"collectionName" : "SalesOrderLineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Order",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "SalesOrder",
+					"path" : "SalesOrder"
+				},
+				{
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
+				},
+				{
+					"name" : "Quantity",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number",
+					"events" : 
+					[
+						{
+							"kind" : "set",
+							"from" : "$mainModel.SalesOrderLine.Quantity.events.set"
+						},
+						{
+							"kind" : "set",
+							"from" : "$mainModel.SalesOrderLine.Quantity.events.set",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "Price",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Amount",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "SellPrice",
+			"className" : "SellPrice",
+			"collectionName" : "SellPriceCollection",
+			"matchTable" : "Price",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
+				},
+				{
+					"name" : "Price",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "SellPriceVersion",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "SellPriceVersion",
+					"path" : "SellPriceVersion"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "SellPriceVersion",
+			"className" : "SellPriceVersion",
+			"collectionName" : "SellPriceVersionCollection",
+			"matchTable" : "PriceVersion",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "shopCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "branchCollection",
+					"scope" : "public",
+					"type" : "ShopCollection",
+					"reversePath" : true,
+					"path" : "PriceVersion"
+				},
+				{
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "Date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "sellPriceCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SellPriceCollection",
+					"reversePath" : true,
+					"path" : "SellPriceVersion"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Shop",
+			"className" : "Shop",
+			"collectionName" : "ShopCollection",
+			"matchTable" : "Shop,Branch",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "PriceVersion",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "SellPriceVersion",
+					"path" : "SellPriceVersion"
+				},
+				{
+					"name" : "Factory",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Factory",
+					"path" : "Factory"
+				},
+				{
+					"name" : "salesOrderCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SalesOrderCollection",
+					"reversePath" : true,
+					"path" : "Shop"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "State",
+			"className" : "State",
+			"collectionName" : "StateCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "StateMachine",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "StateMachine",
+					"path" : "StateMachine"
+				},
+				{
+					"name" : "allowedStateCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "AllowedStateCollection",
+					"reversePath" : true,
+					"path" : "From"
+				},
+				{
+					"name" : "allowedStateCollection_1",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "AllowedStateCollection",
+					"reversePath" : true,
+					"path" : "To"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "StateMachine",
+			"className" : "StateMachine",
+			"collectionName" : "StateMachineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "stateCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "StateCollection",
+					"reversePath" : true,
+					"path" : "StateMachine"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		}

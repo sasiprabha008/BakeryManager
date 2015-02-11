@@ -2,38 +2,42 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
-	var button7 = {};	// @button
-	var productionOrderLineCollectionEvent = {};	// @dataSource
+	var btn_clear = {};	// @button
+	var id_btn_search = {};	// @button
 // @endregion// @endlock
 
 // eventHandlers// @lock
 
-	button7.click = function button7_click (event)// @startlock
+	btn_clear.click = function btn_clear_click (event)// @startlock
 	{// @endlock
-		ar onSuccessFunction = function (event)
-         {
-            alert('success');
-            alert(event.result);
-            alert(event.result.error);
-            alert(event.result.errorMessage);
-            source.project.all();
-        }
-        var onErrorFunction = function (event)
-        {
-            alert('Failed to call the method');
-            alert(event.result.errorMessage);  // I don't know if this would tell you why
-        }
-        var n = appName;
-        source.productionOrder.callMethod({method: "generateMixingOrder", onSuccess: onSuccessFunction, onError: onErrorFunction }, n);
+		
 	};// @lock
 
-	productionOrderLineCollectionEvent.onElementSaved = function productionOrderLineCollectionEvent_onElementSaved (event)// @startlock
+	id_btn_search.click = function id_btn_search_click (event)// @startlock
 	{// @endlock
-		sources.mixingOrderLineCollection.clientRefresh();
+		//alert('aaa1'+ qry_so_date);
+		var query_array = [];
+		if(qry_so_time != ''){
+			
+			query_array.push('Time === '+qry_so_time);
+		}
+		if(qry_so_date){
+			
+			query_array.push('Date >= '+qry_so_date[0].toISOString()+' and Date <= '+qry_so_date[1].toISOString());
+		}
+		
+		var query_str = '';
+		for(i = 0;i<query_array.length;i++){
+			
+			query_str = query_str+(i!=0?'and ':'')+query_array[i];
+			
+		}
+		sources.salesOrder.query(query_str);
 	};// @lock
+
 
 // @region eventManager// @startlock
-	WAF.addListener("button7", "click", button7.click, "WAF");
-	WAF.addListener("productionOrderLineCollection", "onElementSaved", productionOrderLineCollectionEvent.onElementSaved, "WAF");
+	WAF.addListener("btn_clear", "click", btn_clear.click, "WAF");
+	WAF.addListener("id_btn_search", "click", id_btn_search.click, "WAF");
 // @endregion
 };// @endlock
