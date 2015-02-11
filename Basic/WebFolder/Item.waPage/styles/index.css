@@ -3,6 +3,164 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#button1 {
+	 z-index: 9;
+	 width: 92px;
+	 height: 22px;
+	 top: 178px;
+	 left: 16px;
+	
+	 position: absolute;
+	 
+}
+
+#dataGrid1 {
+	 z-index: 2;
+	 width: 513px;
+	 height: 520px;
+	 top: 235px;
+	 left: 15px;
+	
+	 position: absolute;
+	 
+}
+
+#label4 {
+	 z-index: 8;
+	 width: 75px;
+	 height: 13px;
+	 top: 139px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#combobox1 {
+	 z-index: 8;
+	 width: 164px;
+	 height: 24px;
+	 top: 134px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label3 {
+	 z-index: 6;
+	 width: 75px;
+	 height: 13px;
+	 top: 99px;
+	 left: 116px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#checkbox2 {
+	 z-index: 6;
+	 width: 16px;
+	 height: 16px;
+	 top: 98px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label2 {
+	 z-index: 4;
+	 width: 75px;
+	 height: 13px;
+	 top: 63px;
+	 left: 116px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#checkbox1 {
+	 z-index: 4;
+	 width: 16px;
+	 height: 16px;
+	 top: 62px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label1 {
+	 z-index: 2;
+	 width: 75px;
+	 height: 13px;
+	 top: 24px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField1 {
+	 z-index: 2;
+	 width: 130px;
+	 height: 22px;
+	 top: 20px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#container4 {
+	 z-index: 1;
+	 width: 517px;
+	 height: 208px;
+	 top: 13px;
+	 left: 9px;
+	
+	 position: absolute;
+	 
+}
+
+#container3 {
+	 z-index: 6;
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 position: absolute;
+	 
+}
+
+#richText3 {
+	 z-index: 1;
+	 width: 66px;
+	 height: 23px;
+	 top: 0px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#menuItem3 {
+	 z-index: 3;
+	 width: 66px;
+	 height: 23px;
+	 top: 0px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
 #container2 {
 	 z-index: 5;
 	 top: 28px;
@@ -38,7 +196,7 @@
 
 #container1 {
 	 z-index: 4;
-	 width: 792px;
+	 width: 836px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
@@ -84,40 +242,18 @@
 	 height: 23px;
 	 top: 5px;
 	 left: 5px;
-	 right: 589px;
+	 right: 633px;
 	
 	 position: absolute;
 	 
 }
 
 #tabView1 {
-	 z-index: 5;
-	 width: 802px;
-	 height: 794px;
-	 top: 16px;
-	 left: 225px;
-	
-	 position: absolute;
-	 
-}
-
-#label1 {
-	 z-index: 1;
-	 width: 26px;
-	 height: 13px;
-	 top: 12px;
-	 left: 12px;
-	
-	 position: absolute;
-	 
-}
-
-#dataGrid1 {
-	 z-index: 1;
-	 width: 462px;
-	 height: 712px;
-	 top: 30px;
-	 left: 12px;
+	 z-index: 2;
+	 width: 846px;
+	 height: 805px;
+	 top: 10px;
+	 left: 209px;
 	
 	 position: absolute;
 	 
@@ -127,7 +263,7 @@
 	 z-index: 1;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 10px;
+	 bottom: 27px;
 	 left: 10px;
 	
 	 position: absolute;

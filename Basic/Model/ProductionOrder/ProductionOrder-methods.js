@@ -18,3 +18,11 @@ model.ProductionOrder.methods.generateFromPlannedSalesOrders = function() {
 	
 	 
 };
+
+
+
+
+
+model.ProductionOrder.entityMethods.generateMixingOrder = function() {
+	var x = this.PurchaseOrder.ID;
+};

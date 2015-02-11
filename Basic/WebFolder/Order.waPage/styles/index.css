@@ -3,8 +3,17 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#slider1 {
+	 width: 162px;
+	 height: 6px;
+	 top: 73px;
+	 left: 161px;
+	
+	 
+}
+
 #label18 {
-	 z-index: 7;
+	 z-index: 6;
 	 width: 103px;
 	 height: 13px;
 	 top: 28px;
@@ -126,51 +135,6 @@
 	 
 }
 
-#container8 {
-	 width: 340px;
-	 height: 768px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#dataGrid6 {
-	 width: 300px;
-	 height: 300px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#dataGrid7 {
-	 width: 300px;
-	 height: 300px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
-#label13 {
-	 width: 36px;
-	 height: 13px;
-	 top: -18px;
-	 left: 0px;
-	
-	 
-}
-
-#label14 {
-	 width: 47px;
-	 height: 13px;
-	 top: 4px;
-	 left: -52px;
-	
-	 
-}
-
 #dataGrid5 {
 	 z-index: 3;
 	 width: 300px;
@@ -261,15 +225,6 @@
 	 
 }
 
-#container6 {
-	 width: 340px;
-	 height: 426px;
-	 top: 0px;
-	 left: 0px;
-	
-	 
-}
-
 #label1 {
 	 z-index: 5;
 	 width: 89px;
@@ -283,10 +238,10 @@
 
 #container5 {
 	 z-index: 6;
-	 width: 1014px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
+	 right: 5px;
 	
 	 position: absolute;
 	 
@@ -316,10 +271,10 @@
 
 #container3 {
 	 z-index: 5;
-	 width: 1014px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
+	 right: 5px;
 	
 	 position: absolute;
 	 
@@ -349,10 +304,10 @@
 
 #container1 {
 	 z-index: 4;
-	 width: 1014px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
+	 right: 5px;
 	
 	 position: absolute;
 	 
@@ -405,7 +360,7 @@
 	 z-index: 12;
 	 width: 1024px;
 	 top: 10px;
-	 bottom: 12px;
+	 bottom: 16px;
 	 left: 210px;
 	
 	 position: absolute;
@@ -631,58 +586,10 @@
 	 z-index: 2;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 14px;
+	 bottom: 18px;
 	 left: 10px;
 	
 	 position: absolute;
-	 
-}
-
-#label3 {
-	 width: 26px;
-	 height: 13px;
-	 top: 4px;
-	 left: -31px;
-	 
-}
-
-#textField1 {
-	 width: 130px;
-	 height: 22px;
-	 top: 0px;
-	 left: 0px;
-	 
-}
-
-#label2 {
-	 width: 40px;
-	 height: 13px;
-	 top: -18px;
-	 left: 0px;
-	 
-}
-
-#dataGrid2 {
-	 width: 300px;
-	 height: 300px;
-	 top: 0px;
-	 left: 0px;
-	 
-}
-
-#textField3 {
-	 width: 130px;
-	 height: 22px;
-	 top: 0px;
-	 left: 0px;
-	 
-}
-
-#label10 {
-	 width: 32px;
-	 height: 13px;
-	 top: -18px;
-	 left: 0px;
 	 
 }
 

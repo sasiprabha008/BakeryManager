@@ -53,8 +53,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 67,
-						"Y": 1318
+						"X": 72,
+						"Y": 1304
 					}
 				}
 			},
@@ -64,8 +64,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 626,
-						"Y": 932
+						"X": 641,
+						"Y": 858
 					}
 				}
 			},
@@ -75,8 +75,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 635,
-						"Y": 1244
+						"X": 846,
+						"Y": 1205
 					}
 				}
 			},
@@ -86,8 +86,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 349,
-						"Y": 1318
+						"X": 383,
+						"Y": 1297
 					}
 				}
 			},
@@ -130,8 +130,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 652,
-						"Y": 1425
+						"X": 887,
+						"Y": 1387
 					}
 				}
 			},
@@ -244,6 +244,9 @@
 				},
 				"SalesOrderLine": {
 					"events": "SalesOrderLine/SalesOrderLine-events.js"
+				},
+				"Recipe": {
+					"computed": "Recipe/Recipe-events.js"
 				}
 			}
 		}
@@ -418,14 +421,6 @@
 					"path": "Item"
 				},
 				{
-					"name": "recipeCollection",
-					"kind": "relatedEntities",
-					"scope": "public",
-					"type": "RecipeCollection",
-					"reversePath": true,
-					"path": "Item"
-				},
-				{
 					"name": "salesOrderLineCollection",
 					"kind": "relatedEntities",
 					"scope": "public",
@@ -484,6 +479,19 @@
 					"type": "PurchasePriceCollection",
 					"reversePath": true,
 					"path": "Item"
+				},
+				{
+					"name": "Weight",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "Recipe",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Recipe",
+					"path": "Recipe"
 				}
 			]
 		},
@@ -504,13 +512,6 @@
 					"primKey": true
 				},
 				{
-					"name": "Order",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "ProductionOrder",
-					"path": "ProductionOrder"
-				},
-				{
 					"name": "Recipe",
 					"kind": "relatedEntity",
 					"scope": "public",
@@ -522,6 +523,21 @@
 					"kind": "storage",
 					"scope": "public",
 					"type": "number"
+				},
+				{
+					"name": "productionOrderLineCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "ProductionOrderLineCollection",
+					"reversePath": true,
+					"path": "MixingOrderLine"
+				},
+				{
+					"name": "Order",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "ProductionOrder",
+					"path": "ProductionOrder"
 				}
 			]
 		},
@@ -579,6 +595,13 @@
 					"scope": "publicOnServer",
 					"from": "$mainModel.ProductionOrder.methods.generateFromPlannedSalesOrders",
 					"userDefined": true
+				},
+				{
+					"name": "generateMixingOrder",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.ProductionOrder.entityMethods.generateMixingOrder",
+					"userDefined": true
 				}
 			]
 		},
@@ -610,7 +633,14 @@
 					"kind": "relatedEntity",
 					"scope": "public",
 					"type": "Item",
-					"path": "Item"
+					"path": "Item",
+					"events": [
+						{
+							"kind": "set",
+							"from": "$mainModel.ProductionOrderLine.Item.events.set",
+							"userDefined": true
+						}
+					]
 				},
 				{
 					"name": "Quantity",
@@ -620,13 +650,28 @@
 					"events": [
 						{
 							"kind": "set",
+							"from": "$mainModel.ProductionOrderLine.Quantity.events.set"
+						},
+						{
+							"kind": "set",
 							"from": "$mainModel.ProductionOrderLine.Quantity.events.set",
 							"userDefined": true
 						}
 					]
+				},
+				{
+					"name": "MixingOrderLine",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "MixingOrderLine",
+					"path": "MixingOrderLine"
 				}
 			],
 			"events": [
+				{
+					"kind": "save",
+					"from": "$mainModel.ProductionOrderLine.events.save"
+				},
 				{
 					"kind": "save",
 					"from": "$mainModel.ProductionOrderLine.events.save",
@@ -806,13 +851,6 @@
 					"primKey": true
 				},
 				{
-					"name": "Item",
-					"kind": "relatedEntity",
-					"scope": "public",
-					"type": "Item",
-					"path": "Item"
-				},
-				{
 					"name": "Name",
 					"kind": "storage",
 					"scope": "public",
@@ -845,6 +883,27 @@
 					"type": "MixingOrderLineCollection",
 					"reversePath": true,
 					"path": "Recipe"
+				},
+				{
+					"name": "Weight",
+					"kind": "calculated",
+					"scope": "public",
+					"type": "number",
+					"scriptKind": "javascript",
+					"onGet": [
+						{
+							"from": "$mainModel.Recipe.Weight.onGet",
+							"userDefined": true
+						}
+					]
+				},
+				{
+					"name": "itemCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "ItemCollection",
+					"reversePath": true,
+					"path": "Recipe"
 				}
 			]
 		},
@@ -872,8 +931,9 @@
 					"path": "Recipe"
 				},
 				{
-					"name": "Quantity",
+					"name": "Weight",
 					"kind": "storage",
+					"matchColumn": "Quantity",
 					"scope": "public",
 					"type": "number"
 				},
@@ -973,7 +1033,18 @@
 					"name": "Quantity",
 					"kind": "storage",
 					"scope": "public",
-					"type": "number"
+					"type": "number",
+					"events": [
+						{
+							"kind": "set",
+							"from": "$mainModel.SalesOrderLine.Quantity.events.set"
+						},
+						{
+							"kind": "set",
+							"from": "$mainModel.SalesOrderLine.Quantity.events.set",
+							"userDefined": true
+						}
+					]
 				},
 				{
 					"name": "Price",
@@ -1203,6 +1274,5 @@
 				}
 			]
 		}
-	],
-	"type": []
+	]
 }
