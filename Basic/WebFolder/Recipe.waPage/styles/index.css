@@ -3,12 +3,136 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#button2 {
+	 z-index: 5;
+	 width: 92px;
+	 height: 22px;
+	 top: 212px;
+	 left: 21px;
+	
+	 position: absolute;
+	 
+}
+
+#label8 {
+	 z-index: 4;
+	 width: 75px;
+	 height: 13px;
+	 top: 68px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField6 {
+	 z-index: 4;
+	 width: 130px;
+	 height: 22px;
+	 top: 64px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label7 {
+	 z-index: 2;
+	 width: 75px;
+	 height: 13px;
+	 top: 25px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#combobox1 {
+	 z-index: 2;
+	 width: 164px;
+	 height: 24px;
+	 top: 20px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#container3 {
+	 z-index: 7;
+	 width: 370px;
+	 height: 261px;
+	 top: 27px;
+	 left: 634px;
+	
+	 position: absolute;
+	 
+}
+
+#container2 {
+	 width: 340px;
+	 height: 426px;
+	 top: 0px;
+	 left: 0px;
+	
+	 
+}
+
+#dataGrid3 {
+	 width: 300px;
+	 height: 300px;
+	 top: 0px;
+	 left: 0px;
+	
+	 
+}
+
+#label5 {
+	 width: 26px;
+	 height: 13px;
+	 top: -18px;
+	 left: 0px;
+	
+	 
+}
+
+#textField5 {
+	 width: 130px;
+	 height: 22px;
+	 top: 0px;
+	 left: 0px;
+	
+	 
+}
+
+#label6 {
+	 width: 38px;
+	 height: 13px;
+	 top: 4px;
+	 left: -43px;
+	
+	 
+}
+
+#dataGrid2 {
+	 z-index: 6;
+	 width: 373px;
+	 height: 514px;
+	 top: 298px;
+	 left: 634px;
+	
+	 position: absolute;
+	 
+}
+
 #dataGrid1 {
 	 z-index: 4;
-	 width: 607px;
-	 height: 300px;
-	 top: 316px;
-	 left: 265px;
+	 width: 407px;
+	 height: 510px;
+	 top: 299px;
+	 left: 216px;
 	
 	 position: absolute;
 	 
@@ -28,8 +152,8 @@
 #label4 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 13px;
-	 top: 150px;
+	 height: 16px;
+	 top: 149px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -51,8 +175,8 @@
 #label3 {
 	 z-index: 5;
 	 width: 75px;
-	 height: 13px;
-	 top: 108px;
+	 height: 16px;
+	 top: 107px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -74,8 +198,8 @@
 #label2 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 66px;
+	 height: 16px;
+	 top: 65px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -97,8 +221,8 @@
 #label1 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 13px;
-	 top: 24px;
+	 height: 16px;
+	 top: 23px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -119,10 +243,10 @@
 
 #container1 {
 	 z-index: 3;
-	 width: 245px;
-	 height: 236px;
-	 top: 41px;
-	 left: 240px;
+	 width: 406px;
+	 height: 265px;
+	 top: 25px;
+	 left: 217px;
 	
 	 position: absolute;
 	 

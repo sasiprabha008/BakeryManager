@@ -3,11 +3,356 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#textField14 {
+	 width: 130px;
+	 height: 22px;
+	 top: 103px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 8;
+	 
+}
+
+#label33 {
+	 width: 75px;
+	 height: 13px;
+	 top: 107px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 z-index: 8;
+	 
+}
+
+#label32 {
+	 width: 50px;
+	 height: 13px;
+	 top: 59px;
+	 left: 19px;
+	
+	 position: absolute;
+	 min-width: 50px;
+	 z-index: 12;
+	 
+}
+
+#label31 {
+	 width: 50px;
+	 height: 13px;
+	 top: 22px;
+	 left: 19px;
+	
+	 position: absolute;
+	 text-align: left;
+	 min-width: 50px;
+	 z-index: 10;
+	 
+}
+
+#dataGrid6 {
+	 z-index: 6;
+	 width: 362px;
+	 height: 525px;
+	 top: 277px;
+	 left: 26px;
+	
+	 position: absolute;
+	 
+}
+
+#label30 {
+	 z-index: 6;
+	 width: 100px;
+	 height: 16px;
+	 top: 256px;
+	 left: 26px;
+	
+	 position: absolute;
+	 max-width: 100px;
+	 min-width: 1000px;
+	 
+}
+
+#dataGrid2 {
+	 z-index: 4;
+	 width: 310px;
+	 height: 524px;
+	 top: 276px;
+	 left: 422px;
+	
+	 position: absolute;
+	 
+}
+
+#label29 {
+	 z-index: 4;
+	 width: 100px;
+	 height: 13px;
+	 top: 258px;
+	 left: 422px;
+	
+	 position: absolute;
+	 max-width: 100px;
+	 min-width: 100px;
+	 
+}
+
+#label28 {
+	 z-index: 4;
+	 width: 75px;
+	 height: 13px;
+	 top: 68px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#label27 {
+	 z-index: 3;
+	 width: 75px;
+	 height: 13px;
+	 top: 25px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#button10 {
+	 z-index: 6;
+	 width: 92px;
+	 height: 22px;
+	 top: 185px;
+	 left: 15px;
+	
+	 position: absolute;
+	 
+}
+
+#button9 {
+	 z-index: 5;
+	 width: 92px;
+	 height: 22px;
+	 top: 185px;
+	 left: 116px;
+	
+	 position: absolute;
+	 
+}
+
+#textField13 {
+	 z-index: 4;
+	 width: 130px;
+	 height: 22px;
+	 top: 64px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox6 {
+	 z-index: 3;
+	 width: 164px;
+	 height: 24px;
+	 top: 20px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#container8 {
+	 z-index: 2;
+	 width: 257px;
+	 height: 225px;
+	 top: 277px;
+	 left: 740px;
+	
+	 position: absolute;
+	 
+}
+
+#label20 {
+	 z-index: 10;
+	 width: 75px;
+	 height: 16px;
+	 top: 24px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#label26 {
+	 z-index: 9;
+	 width: 75px;
+	 height: 16px;
+	 top: 78px;
+	 left: 321px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#label25 {
+	 z-index: 7;
+	 width: 75px;
+	 height: 16px;
+	 top: 132px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#label24 {
+	 z-index: 6;
+	 width: 75px;
+	 height: 16px;
+	 top: 78px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#label19 {
+	 z-index: 5;
+	 width: 75px;
+	 height: 16px;
+	 top: 23px;
+	 left: 321px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField12 {
+	 z-index: 10;
+	 width: 130px;
+	 height: 22px;
+	 top: 21px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#textField11 {
+	 z-index: 9;
+	 width: 130px;
+	 height: 22px;
+	 top: 75px;
+	 left: 401px;
+	
+	 position: absolute;
+	 
+}
+
+#button8 {
+	 z-index: 8;
+	 width: 92px;
+	 height: 22px;
+	 top: 183px;
+	 left: 13px;
+	
+	 position: absolute;
+	 
+}
+
+#textField10 {
+	 z-index: 7;
+	 width: 130px;
+	 height: 22px;
+	 top: 129px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#textField1 {
+	 z-index: 6;
+	 width: 130px;
+	 height: 22px;
+	 top: 75px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox5 {
+	 z-index: 5;
+	 width: 164px;
+	 height: 24px;
+	 top: 19px;
+	 left: 401px;
+	
+	 position: absolute;
+	 
+}
+
+#container6 {
+	 z-index: 1;
+	 width: 585px;
+	 height: 227px;
+	 top: 9px;
+	 left: 420px;
+	
+	 position: absolute;
+	 
+}
+
+#container5 {
+	 z-index: 6;
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 position: absolute;
+	 
+}
+
+#richText3 {
+	 z-index: 1;
+	 width: 66px;
+	 height: 23px;
+	 top: 0px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#menuItem3 {
+	 z-index: 3;
+	 width: 66px;
+	 height: 23px;
+	 top: 0px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
 #label23 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 13px;
-	 top: 114px;
+	 height: 16px;
+	 top: 113px;
 	 left: 17px;
 	
 	 position: absolute;
@@ -27,35 +372,35 @@
 }
 
 #label22 {
+	 z-index: 19;
 	 width: 50px;
-	 height: 13px;
-	 top: 59px;
+	 height: 16px;
+	 top: 58px;
 	 left: 19px;
 	
 	 position: absolute;
 	 min-width: 50px;
-	 z-index: 19;
 	 
 }
 
 #label21 {
+	 z-index: 18;
 	 width: 50px;
-	 height: 13px;
-	 top: 22px;
+	 height: 16px;
+	 top: 20px;
 	 left: 19px;
 	
 	 position: absolute;
 	 text-align: left;
 	 min-width: 50px;
-	 z-index: 18;
 	 
 }
 
 #label3 {
 	 z-index: 7;
-	 width: 95px;
-	 height: 13px;
-	 top: 243px;
+	 width: 84px;
+	 height: 16px;
+	 top: 240px;
 	 left: 7px;
 	
 	 position: absolute;
@@ -76,8 +421,8 @@
 #label10 {
 	 z-index: 12;
 	 width: 75px;
-	 height: 13px;
-	 top: 79px;
+	 height: 16px;
+	 top: 78px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -94,8 +439,8 @@
 #label14 {
 	 z-index: 17;
 	 width: 50px;
-	 height: 13px;
-	 top: 55px;
+	 height: 16px;
+	 top: 54px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -106,8 +451,8 @@
 #label13 {
 	 z-index: 15;
 	 width: 50px;
-	 height: 13px;
-	 top: 18px;
+	 height: 16px;
+	 top: 16px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -119,8 +464,8 @@
 #label2 {
 	 z-index: 7;
 	 width: 100px;
-	 height: 13px;
-	 top: 255px;
+	 height: 16px;
+	 top: 252px;
 	 left: 22px;
 	
 	 position: absolute;
@@ -131,9 +476,9 @@
 
 #label18 {
 	 z-index: 6;
-	 width: 103px;
-	 height: 13px;
-	 top: 246px;
+	 width: 94px;
+	 height: 16px;
+	 top: 243px;
 	 left: 759px;
 	
 	 position: absolute;
@@ -153,9 +498,9 @@
 
 #label17 {
 	 z-index: 5;
-	 width: 121px;
-	 height: 13px;
-	 top: 245px;
+	 width: 108px;
+	 height: 16px;
+	 top: 242px;
 	 left: 449px;
 	
 	 position: absolute;
@@ -198,8 +543,8 @@
 #label16 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 68px;
+	 height: 16px;
+	 top: 67px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -221,8 +566,8 @@
 #label15 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -243,8 +588,8 @@
 
 #container9 {
 	 z-index: 4;
-	 width: NaNpx;
-	 height: NaNpx;
+	 width: 294px;
+	 height: 211px;
 	 top: 620px;
 	 left: 450px;
 	
@@ -254,8 +599,8 @@
 
 #dataGrid5 {
 	 z-index: 3;
-	 width: NaNpx;
-	 height: NaNpx;
+	 width: 300px;
+	 height: 300px;
 	 top: 263px;
 	 left: 449px;
 	
@@ -288,8 +633,8 @@
 #label9 {
 	 z-index: 3;
 	 width: 75px;
-	 height: 13px;
-	 top: 68px;
+	 height: 16px;
+	 top: 67px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -311,8 +656,8 @@
 #label4 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -345,8 +690,8 @@
 #label1 {
 	 z-index: 5;
 	 width: 100px;
-	 height: 13px;
-	 top: 254px;
+	 height: 16px;
+	 top: 251px;
 	 left: 418px;
 	
 	 position: absolute;
@@ -357,10 +702,10 @@
 
 #container3 {
 	 z-index: 5;
-	 width: 1014px;
 	 top: 28px;
 	 bottom: 5px;
 	 left: 5px;
+	 right: 5px;
 	
 	 position: absolute;
 	 
@@ -478,8 +823,8 @@
 #label12 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 68px;
+	 height: 16px;
+	 top: 67px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -501,8 +846,8 @@
 #label11 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -557,8 +902,8 @@
 #label8 {
 	 z-index: 8;
 	 width: 75px;
-	 height: 13px;
-	 top: 133px;
+	 height: 16px;
+	 top: 132px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -580,8 +925,8 @@
 #label7 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 13px;
-	 top: 79px;
+	 height: 16px;
+	 top: 78px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -603,8 +948,8 @@
 #label6 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -626,8 +971,8 @@
 #label5 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 13px;
-	 top: 24px;
+	 height: 16px;
+	 top: 23px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -672,7 +1017,7 @@
 	 z-index: 2;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 28px;
+	 bottom: 32px;
 	 left: 10px;
 	
 	 position: absolute;
@@ -718,24 +1063,24 @@
 }
 
 #id_btn_po_search {
+	 z-index: 17;
 	 width: 92px;
 	 height: 22px;
 	 top: 207px;
 	 left: 25px;
 	
 	 position: absolute;
-	 z-index: 17;
 	 
 }
 
 #id_btn_po_clear {
+	 z-index: 21;
 	 width: 92px;
 	 height: 22px;
 	 top: 206px;
 	 left: 131px;
 	
 	 position: absolute;
-	 z-index: 21;
 	 
 }
 
@@ -762,28 +1107,29 @@
 }
 
 #id_qry_po_shop {
+	 z-index: 18;
 	 width: 127px;
 	 height: 23px;
 	 top: 17px;
 	 left: 74px;
 	
 	 position: absolute;
-	 z-index: 18;
 	 
 }
 
 #id_qry_po_time {
+	 z-index: 20;
 	 width: 83px;
 	 height: 20px;
 	 top: 56px;
 	 left: 74px;
 	
 	 position: absolute;
-	 z-index: 20;
 	 
 }
 
 #id_qry_po_date {
+	 z-index: 17;
 	 width: 180px;
 	 height: 150px;
 	 top: 15px;
@@ -795,13 +1141,78 @@
 	 border-left-color: rgb(137, 137, 137);
 	 border-right-color: rgb(137, 137, 137);
 	 border-bottom-color: rgb(137, 137, 137);
-	 z-index: 17;
 	 
 }
 
 #id_qry_po_date .datepickerSelected {
 	 color: rgb(0, 0, 0);
 	 background-color: rgb(160, 160, 160);
+	 
+}
+
+#id_qry_ro_shop {
+	 width: 127px;
+	 height: 23px;
+	 top: 17px;
+	 left: 74px;
+	
+	 position: absolute;
+	 z-index: 10;
+	 
+}
+
+#id_qry_ro_time {
+	 width: 83px;
+	 height: 20px;
+	 top: 56px;
+	 left: 74px;
+	
+	 position: absolute;
+	 z-index: 12;
+	 
+}
+
+#id_qry_ro_date {
+	 width: 180px;
+	 height: 150px;
+	 top: 15px;
+	 left: 225px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-color: rgb(137, 137, 137);
+	 border-left-color: rgb(137, 137, 137);
+	 border-right-color: rgb(137, 137, 137);
+	 border-bottom-color: rgb(137, 137, 137);
+	 z-index: 7;
+	 
+}
+
+#id_qry_ro_date .datepickerSelected {
+	 color: rgb(0, 0, 0);
+	 background-color: rgb(160, 160, 160);
+	 
+}
+
+#id_btn_ro_search {
+	 width: 92px;
+	 height: 22px;
+	 top: 207px;
+	 left: 25px;
+	
+	 position: absolute;
+	 z-index: 8;
+	 
+}
+
+#id_btn_ro_clear {
+	 width: 92px;
+	 height: 22px;
+	 top: 206px;
+	 left: 131px;
+	
+	 position: absolute;
+	 z-index: 13;
 	 
 }
 
