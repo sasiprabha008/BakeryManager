@@ -4,17 +4,18 @@
 */
 
 #textField14 {
+	 z-index: 8;
 	 width: 130px;
 	 height: 22px;
 	 top: 103px;
 	 left: 95px;
 	
 	 position: absolute;
-	 z-index: 8;
 	 
 }
 
 #label33 {
+	 z-index: 8;
 	 width: 75px;
 	 height: 13px;
 	 top: 107px;
@@ -22,11 +23,11 @@
 	
 	 position: absolute;
 	 min-width: 75px;
-	 z-index: 8;
 	 
 }
 
 #label32 {
+	 z-index: 12;
 	 width: 50px;
 	 height: 13px;
 	 top: 59px;
@@ -34,11 +35,11 @@
 	
 	 position: absolute;
 	 min-width: 50px;
-	 z-index: 12;
 	 
 }
 
 #label31 {
+	 z-index: 10;
 	 width: 50px;
 	 height: 13px;
 	 top: 22px;
@@ -47,7 +48,6 @@
 	 position: absolute;
 	 text-align: left;
 	 min-width: 50px;
-	 z-index: 10;
 	 
 }
 
@@ -65,8 +65,8 @@
 #label30 {
 	 z-index: 6;
 	 width: 100px;
-	 height: 16px;
-	 top: 256px;
+	 height: 13px;
+	 top: 259px;
 	 left: 26px;
 	
 	 position: absolute;
@@ -181,8 +181,8 @@
 #label20 {
 	 z-index: 10;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -193,8 +193,8 @@
 #label26 {
 	 z-index: 9;
 	 width: 75px;
-	 height: 16px;
-	 top: 78px;
+	 height: 13px;
+	 top: 79px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -205,8 +205,8 @@
 #label25 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 16px;
-	 top: 132px;
+	 height: 13px;
+	 top: 133px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -217,8 +217,8 @@
 #label24 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 16px;
-	 top: 78px;
+	 height: 13px;
+	 top: 79px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -229,8 +229,8 @@
 #label19 {
 	 z-index: 5;
 	 width: 75px;
-	 height: 16px;
-	 top: 23px;
+	 height: 13px;
+	 top: 24px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -351,8 +351,8 @@
 #label23 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 16px;
-	 top: 113px;
+	 height: 13px;
+	 top: 114px;
 	 left: 17px;
 	
 	 position: absolute;
@@ -374,8 +374,8 @@
 #label22 {
 	 z-index: 19;
 	 width: 50px;
-	 height: 16px;
-	 top: 58px;
+	 height: 13px;
+	 top: 59px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -386,8 +386,8 @@
 #label21 {
 	 z-index: 18;
 	 width: 50px;
-	 height: 16px;
-	 top: 20px;
+	 height: 13px;
+	 top: 22px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -398,9 +398,9 @@
 
 #label3 {
 	 z-index: 7;
-	 width: 84px;
-	 height: 16px;
-	 top: 240px;
+	 width: 95px;
+	 height: 13px;
+	 top: 243px;
 	 left: 7px;
 	
 	 position: absolute;
@@ -421,8 +421,8 @@
 #label10 {
 	 z-index: 12;
 	 width: 75px;
-	 height: 16px;
-	 top: 78px;
+	 height: 13px;
+	 top: 79px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -439,8 +439,8 @@
 #label14 {
 	 z-index: 17;
 	 width: 50px;
-	 height: 16px;
-	 top: 54px;
+	 height: 13px;
+	 top: 55px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -451,8 +451,8 @@
 #label13 {
 	 z-index: 15;
 	 width: 50px;
-	 height: 16px;
-	 top: 16px;
+	 height: 13px;
+	 top: 18px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -464,8 +464,8 @@
 #label2 {
 	 z-index: 7;
 	 width: 100px;
-	 height: 16px;
-	 top: 252px;
+	 height: 13px;
+	 top: 255px;
 	 left: 22px;
 	
 	 position: absolute;
@@ -476,9 +476,9 @@
 
 #label18 {
 	 z-index: 6;
-	 width: 94px;
-	 height: 16px;
-	 top: 243px;
+	 width: 103px;
+	 height: 13px;
+	 top: 246px;
 	 left: 759px;
 	
 	 position: absolute;
@@ -498,9 +498,9 @@
 
 #label17 {
 	 z-index: 5;
-	 width: 108px;
-	 height: 16px;
-	 top: 242px;
+	 width: 121px;
+	 height: 13px;
+	 top: 245px;
 	 left: 449px;
 	
 	 position: absolute;
@@ -543,8 +543,8 @@
 #label16 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -566,8 +566,8 @@
 #label15 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -633,8 +633,8 @@
 #label9 {
 	 z-index: 3;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -656,8 +656,8 @@
 #label4 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -690,8 +690,8 @@
 #label1 {
 	 z-index: 5;
 	 width: 100px;
-	 height: 16px;
-	 top: 251px;
+	 height: 13px;
+	 top: 254px;
 	 left: 418px;
 	
 	 position: absolute;
@@ -823,8 +823,8 @@
 #label12 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -846,8 +846,8 @@
 #label11 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -902,8 +902,8 @@
 #label8 {
 	 z-index: 8;
 	 width: 75px;
-	 height: 16px;
-	 top: 132px;
+	 height: 13px;
+	 top: 133px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -925,8 +925,8 @@
 #label7 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 16px;
-	 top: 78px;
+	 height: 13px;
+	 top: 79px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -948,8 +948,8 @@
 #label6 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -971,8 +971,8 @@
 #label5 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 23px;
+	 height: 13px;
+	 top: 24px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -1017,7 +1017,7 @@
 	 z-index: 2;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 32px;
+	 bottom: 34px;
 	 left: 10px;
 	
 	 position: absolute;
@@ -1151,28 +1151,29 @@
 }
 
 #id_qry_ro_shop {
+	 z-index: 10;
 	 width: 127px;
 	 height: 23px;
 	 top: 17px;
 	 left: 74px;
 	
 	 position: absolute;
-	 z-index: 10;
 	 
 }
 
 #id_qry_ro_time {
+	 z-index: 12;
 	 width: 83px;
 	 height: 20px;
 	 top: 56px;
 	 left: 74px;
 	
 	 position: absolute;
-	 z-index: 12;
 	 
 }
 
 #id_qry_ro_date {
+	 z-index: 7;
 	 width: 180px;
 	 height: 150px;
 	 top: 15px;
@@ -1184,7 +1185,6 @@
 	 border-left-color: rgb(137, 137, 137);
 	 border-right-color: rgb(137, 137, 137);
 	 border-bottom-color: rgb(137, 137, 137);
-	 z-index: 7;
 	 
 }
 
@@ -1195,24 +1195,24 @@
 }
 
 #id_btn_ro_search {
+	 z-index: 8;
 	 width: 92px;
 	 height: 22px;
 	 top: 207px;
 	 left: 25px;
 	
 	 position: absolute;
-	 z-index: 8;
 	 
 }
 
 #id_btn_ro_clear {
+	 z-index: 13;
 	 width: 92px;
 	 height: 22px;
 	 top: 206px;
 	 left: 131px;
 	
 	 position: absolute;
-	 z-index: 13;
 	 
 }
 

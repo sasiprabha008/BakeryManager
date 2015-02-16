@@ -29,8 +29,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 38,
-						"Y" : 298
+						"X" : 51,
+						"Y" : 344
 					}
 				}
 			},
@@ -43,8 +43,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 587,
-						"Y" : 582
+						"X" : 520,
+						"Y" : 642
 					}
 				}
 			},
@@ -225,8 +225,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 411,
-						"Y" : 17
+						"X" : 518,
+						"Y" : 5
 					}
 				}
 			},
@@ -313,13 +313,41 @@
 						"Y" : 2100
 					}
 				}
+			},
+			"DailyReport" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 98,
+						"Y" : 2571
+					}
+				}
+			},
+			"DailyReportLine" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 286,
+						"Y" : 2803
+					}
+				}
 			}
 		},
 		"model" : 
 		{
 			"scriptMode" : "manual",
 			"workspaceLeft" : 0,
-			"workspaceTop" : 1724,
+			"workspaceTop" : 0,
 			"lastScriptLocation" : 
 			{
 				"Item" : 
@@ -346,6 +374,10 @@
 				"Recipe" : 
 				{
 					"computed" : "Recipe/Recipe-events.js"
+				},
+				"DailyReport" : 
+				{
+					"method" : "DailyReport/DailyReport-methods.js"
 				}
 			}
 		}
@@ -382,6 +414,127 @@
 					"scope" : "public",
 					"type" : "State",
 					"path" : "State"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "DailyReport",
+			"className" : "DailyReport",
+			"collectionName" : "DailyReportCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Shop",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Shop",
+					"path" : "Shop"
+				},
+				{
+					"name" : "Date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "Lines",
+					"kind" : "relatedEntities",
+					"matchColumn" : "dailyReportLineCollection",
+					"scope" : "public",
+					"type" : "DailyReportLineCollection",
+					"reversePath" : true,
+					"path" : "Order"
+				}
+			],
+			"methods" : 
+			[
+				{
+					"name" : "update",
+					"applyTo" : "dataClass",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.DailyReport.methods.update",
+					"userDefined" : true
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "DailyReportLine",
+			"className" : "DailyReportLine",
+			"collectionName" : "DailyReportLineCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "Order",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "DailyReport",
+					"path" : "DailyReport"
+				},
+				{
+					"name" : "Item",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Item",
+					"path" : "Item"
+				},
+				{
+					"name" : "Sent",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Scrap",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Remain",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "Sold",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
 				}
 			],
 			"key" : 
@@ -622,6 +775,20 @@
 					"type" : "ReturnOrderLineCollection",
 					"reversePath" : true,
 					"path" : "Item"
+				},
+				{
+					"name" : "dailyReportLineCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "DailyReportLineCollection",
+					"reversePath" : true,
+					"path" : "Item"
+				},
+				{
+					"name" : "Type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
 				}
 			],
 			"key" : 
@@ -1563,6 +1730,14 @@
 					"kind" : "relatedEntities",
 					"scope" : "public",
 					"type" : "ReturnOrderCollection",
+					"reversePath" : true,
+					"path" : "Shop"
+				},
+				{
+					"name" : "dailyReportCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "DailyReportCollection",
 					"reversePath" : true,
 					"path" : "Shop"
 				}
