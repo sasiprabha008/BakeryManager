@@ -15,8 +15,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 42,
-						"Y" : 616
+						"X" : 59,
+						"Y" : 614
 					}
 				}
 			},
@@ -29,8 +29,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 51,
-						"Y" : 344
+						"X" : 60,
+						"Y" : 335
 					}
 				}
 			},
@@ -127,8 +127,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 941,
-						"Y" : 36
+						"X" : 977,
+						"Y" : 19
 					}
 				}
 			},
@@ -141,8 +141,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 921,
-						"Y" : 292
+						"X" : 976,
+						"Y" : 281
 					}
 				}
 			},
@@ -211,8 +211,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 36,
-						"Y" : 23
+						"X" : 66,
+						"Y" : 15
 					}
 				}
 			},
@@ -295,8 +295,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 713,
-						"Y" : 1813
+						"X" : 687,
+						"Y" : 1797
 					}
 				}
 			},
@@ -347,7 +347,7 @@
 		{
 			"scriptMode" : "manual",
 			"workspaceLeft" : 0,
-			"workspaceTop" : 0,
+			"workspaceTop" : 1400,
 			"lastScriptLocation" : 
 			{
 				"Item" : 
@@ -378,6 +378,10 @@
 				"DailyReport" : 
 				{
 					"method" : "DailyReport/DailyReport-methods.js"
+				},
+				"ReturnOrder" : 
+				{
+					"events" : "ReturnOrder/ReturnOrder-events.js"
 				}
 			}
 		}
@@ -1380,6 +1384,20 @@
 					"type" : "ReturnOrderLineCollection",
 					"reversePath" : true,
 					"path" : "Order"
+				},
+				{
+					"name" : "OrderNo",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "init",
+					"from" : "$mainModel.ReturnOrder.events.init",
+					"userDefined" : true
 				}
 			],
 			"key" : 

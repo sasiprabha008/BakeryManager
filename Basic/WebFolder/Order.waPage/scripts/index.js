@@ -2,6 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var documentEvent = {};	// @document
 	var id_btn_ro_clear = {};	// @button
 	var id_btn_ro_search = {};	// @button
 	var id_btn_po_clear = {};	// @button
@@ -10,7 +11,21 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	var id_btn_search = {};	// @button
 // @endregion// @endlock
 
+	
+	
+
 // eventHandlers// @lock
+
+	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
+	{// @endlock
+		sales_order_state_line = [];
+		sales_order_state_line.addNewElement({id:'new',value:'New'});
+		sales_order_state_line..addNewElement({id:'ps',value:'Production Started'});
+		sales_order_state_line.save();
+		sources.sales_order_state_line.sync();
+				
+// Add your code here
+	};// @lock
 
 	id_btn_ro_clear.click = function id_btn_ro_clear_click (event)// @startlock
 	{// @endlock
@@ -122,6 +137,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 
 // @region eventManager// @startlock
+	WAF.addListener("document", "onLoad", documentEvent.onLoad, "WAF");
 	WAF.addListener("id_btn_ro_clear", "click", id_btn_ro_clear.click, "WAF");
 	WAF.addListener("id_btn_ro_search", "click", id_btn_ro_search.click, "WAF");
 	WAF.addListener("id_btn_po_clear", "click", id_btn_po_clear.click, "WAF");
