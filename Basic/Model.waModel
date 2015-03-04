@@ -43,8 +43,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 520,
-						"Y" : 642
+						"X" : 530,
+						"Y" : 668
 					}
 				}
 			},
@@ -85,8 +85,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 641,
-						"Y" : 858
+						"X" : 644,
+						"Y" : 899
 					}
 				}
 			},
@@ -197,8 +197,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 861,
-						"Y" : 630
+						"X" : 859,
+						"Y" : 675
 					}
 				}
 			},
@@ -347,7 +347,7 @@
 		{
 			"scriptMode" : "manual",
 			"workspaceLeft" : 0,
-			"workspaceTop" : 1400,
+			"workspaceTop" : 200,
 			"lastScriptLocation" : 
 			{
 				"Item" : 
@@ -1567,11 +1567,6 @@
 						{
 							"kind" : "set",
 							"from" : "$mainModel.SalesOrderLine.Quantity.events.set"
-						},
-						{
-							"kind" : "set",
-							"from" : "$mainModel.SalesOrderLine.Quantity.events.set",
-							"userDefined" : true
 						}
 					]
 				},

@@ -1,5 +1,85 @@
 ﻿
+
+
 WAF.onAfterInit = function onAfterInit() {// @lock
+	
+	function prepareTable(){
+		
+		var lines = sources.SalesOrder.salesOrderLineCollection;
+		for(i = 0;i<lines.length;i++){
+				
+		}
+		
+	}
+	
+	
+	function preparePrint(){
+		var dd = {
+	content: [
+				
+								{ text: 'but you can provide a custom styler as well', margin: [0, 20, 0, 8] },
+								{
+						style: 'tableExample',
+						table: {
+								headerRows: 1,
+								widths: [100, '*', 200],
+								body: [
+										[{ text: 'Header 1', style: 'tableHeader' }, { text: 'Header 2', style: 'tableHeader'}, { text: 'Header 3', style: 'tableHeader' }],
+										[ 'Sample value 1', 'Sample value 2', 'Sample value 3' ],
+										[ 'Sample value 1', 'Sample value 2', 'Sample value 3' ],
+										[ 'Sample value 1', 'Sample value 2', 'Sample value 3' ],
+										[ 'Sample value 1', 'Sample value 2', 'Sample value 3' ],
+										[ 'Sample value 1', 'Sample value 2', 'Sample value 3' ],
+								]
+						},
+						layout: {
+														hLineWidth: function(i, node) {
+																return (i === 0 || i === node.table.body.length) ? 2 : 1;
+														},
+														vLineWidth: function(i, node) {
+																return (i === 0 || i === node.table.widths.length) ? 2 : 1;
+														},
+														hLineColor: function(i, node) {
+																return (i === 0 || i === node.table.body.length) ? 'black' : 'black';
+														},
+														vLineColor: function(i, node) {
+																return (i === 0 || i === node.table.widths.length) ? 'black' : 'gray';
+														},
+														// paddingLeft: function(i, node) { return 4; },
+														// paddingRight: function(i, node) { return 4; },
+														// paddingTop: function(i, node) { return 2; },
+														// paddingBottom: function(i, node) { return 2; }
+						}
+				}
+	],
+	styles: {
+		header: {
+			fontSize: 18,
+			bold: true,
+			margin: [0, 0, 0, 10]
+		},
+		subheader: {
+			fontSize: 16,
+			bold: true,
+			margin: [0, 10, 0, 5]
+		},
+		tableExample: {
+			margin: [0, 5, 0, 15]
+		},
+		tableHeader: {
+			bold: true,
+			fontSize: 13,
+			color: 'black'
+		}
+	},
+	defaultStyle: {
+		// alignment: 'justify'
+	}
+	
+};	
+return dd;
+ 
+	}
 
 // @region namespaceDeclaration// @startlock
 	var btn_print_so = {};	// @button
@@ -12,94 +92,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	var id_btn_search = {};	// @button
 // @endregion// @endlock
 
-	
-	function prepareTable() {
-var table = [
-	                    [{
-	                        text: 'Header 1',
-	                        style: 'tableHeader'
-	                    }, {
-	                        text: 'Header 2',
-	                        style: 'tableHeader'
-	                    }, {
-	                        text: 'Header 3',
-	                        style: 'tableHeader'
-	                    }],
-	                    ['Sample value 1', 'Sample value 2', 'Sample value 3'],
-	                    ['Sample value 1', 'Sample value 2', 'Sample value 3'],
-	                    ['Sample value 1', 'Sample value 2', 'Sample value 3'],
-	                    ['Sample value 1', 'Sample value 2', 'Sample value 3'],
-	                    ['Sample value 1', 'Sample value 2', 'Sample value 3'], ];
-	    var lines = sources.SalesOrder.salesOrderLineCollection;
-	    for (i = 0; i < lines.length; i++) {
-
-	    }
-return table;
-	}
-
-
-	function preparePrint() {
-	    var dd = {
-	        content: [
-
-	        {
-	            text: 'but you can provide a custom styler as well',
-	            margin: [0, 20, 0, 8]
-	        }, {
-	            style: 'tableExample',
-	            table: {
-	                headerRows: 1,
-	                widths: [100, '*', 200],
-	                body: prepareTable()
-	            },
-	            layout: {
-	                hLineWidth: function(i, node) {
-	                    return (i === 0 || i === node.table.body.length) ? 2 : 1;
-	                },
-	                vLineWidth: function(i, node) {
-	                    return (i === 0 || i === node.table.widths.length) ? 2 : 1;
-	                },
-	                hLineColor: function(i, node) {
-	                    return (i === 0 || i === node.table.body.length) ? 'black' : 'black';
-	                },
-	                vLineColor: function(i, node) {
-	                    return (i === 0 || i === node.table.widths.length) ? 'black' : 'gray';
-	                },
-	                // paddingLeft: function(i, node) { return 4; },
-	                // paddingRight: function(i, node) { return 4; },
-	                // paddingTop: function(i, node) { return 2; },
-	                // paddingBottom: function(i, node) { return 2; }
-	            }
-	        }],
-	        styles: {
-	            header: {
-	                fontSize: 18,
-	                bold: true,
-	                margin: [0, 0, 0, 10]
-	            },
-	            subheader: {
-	                fontSize: 16,
-	                bold: true,
-	                margin: [0, 10, 0, 5]
-	            },
-	            tableExample: {
-	                margin: [0, 5, 0, 15]
-	            },
-	            tableHeader: {
-	                bold: true,
-	                fontSize: 13,
-	                color: 'black'
-	            }
-	        },
-	        defaultStyle: {
-	            // alignment: 'justify'
-	        }
-
-	    };
-	    return dd;
-
-	}	
-
 // eventHandlers// @lock
 
 	btn_print_so.click = function btn_print_so_click (event)// @startlock
@@ -111,13 +103,7 @@ return table;
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
-		sales_order_state_line = [];
-		sales_order_state_line.addNewElement({id:'new',value:'New'});
-		sales_order_state_line.addNewElement({id:'ps',value:'Production Started'});
-		sales_order_state_line.save();
-		sources.sales_order_state_line.sync();
-				
-// Add your code here
+		
 	};// @lock
 
 	id_btn_ro_clear.click = function id_btn_ro_clear_click (event)// @startlock
@@ -227,7 +213,6 @@ return table;
 		}
 		sources.salesOrder.query(query_str);
 	};// @lock
-
 
 // @region eventManager// @startlock
 	WAF.addListener("btn_print_so", "click", btn_print_so.click, "WAF");

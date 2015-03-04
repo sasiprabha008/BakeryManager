@@ -3,18 +3,30 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#combobox8 {
-	 width: 164px;
-	 height: 24px;
-	 top: 127px;
-	 left: 95px;
+#btn_print_so {
+	 width: 92px;
+	 height: 22px;
+	 top: 183px;
+	 left: 112px;
 	
 	 position: absolute;
 	 z-index: 13;
 	 
 }
 
+#combobox8 {
+	 z-index: 12;
+	 width: 164px;
+	 height: 24px;
+	 top: 127px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
 #label35 {
+	 z-index: 12;
 	 width: 75px;
 	 height: 13px;
 	 top: 132px;
@@ -22,7 +34,6 @@
 	
 	 position: absolute;
 	 min-width: 75px;
-	 z-index: 13;
 	 
 }
 
@@ -40,8 +51,8 @@
 #label33 {
 	 z-index: 8;
 	 width: 75px;
-	 height: 16px;
-	 top: 106px;
+	 height: 13px;
+	 top: 107px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -52,8 +63,8 @@
 #label32 {
 	 z-index: 12;
 	 width: 50px;
-	 height: 16px;
-	 top: 58px;
+	 height: 13px;
+	 top: 59px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -64,8 +75,8 @@
 #label31 {
 	 z-index: 10;
 	 width: 50px;
-	 height: 16px;
-	 top: 20px;
+	 height: 13px;
+	 top: 22px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -88,8 +99,8 @@
 #label30 {
 	 z-index: 6;
 	 width: 100px;
-	 height: 16px;
-	 top: 256px;
+	 height: 13px;
+	 top: 259px;
 	 left: 26px;
 	
 	 position: absolute;
@@ -112,8 +123,8 @@
 #label29 {
 	 z-index: 4;
 	 width: 100px;
-	 height: 16px;
-	 top: 255px;
+	 height: 13px;
+	 top: 258px;
 	 left: 422px;
 	
 	 position: absolute;
@@ -125,8 +136,8 @@
 #label28 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -137,8 +148,8 @@
 #label27 {
 	 z-index: 3;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -225,18 +236,6 @@
 	 
 }
 
-#label24 {
-	 z-index: 6;
-	 width: 75px;
-	 height: 13px;
-	 top: 79px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
 #label19 {
 	 z-index: 5;
 	 width: 75px;
@@ -276,17 +275,6 @@
 	 width: 130px;
 	 height: 22px;
 	 top: 129px;
-	 left: 95px;
-	
-	 position: absolute;
-	 
-}
-
-#textField1 {
-	 z-index: 6;
-	 width: 130px;
-	 height: 22px;
-	 top: 75px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -351,8 +339,8 @@
 #label23 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 16px;
-	 top: 113px;
+	 height: 13px;
+	 top: 114px;
 	 left: 17px;
 	
 	 position: absolute;
@@ -374,8 +362,8 @@
 #label22 {
 	 z-index: 19;
 	 width: 50px;
-	 height: 16px;
-	 top: 58px;
+	 height: 13px;
+	 top: 59px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -386,8 +374,8 @@
 #label21 {
 	 z-index: 18;
 	 width: 50px;
-	 height: 16px;
-	 top: 20px;
+	 height: 13px;
+	 top: 22px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -431,17 +419,11 @@
 	 
 }
 
-#id_qry_so_date .datepickerSelected {
-	 color: rgb(0, 0, 0);
-	 background-color: rgb(160, 160, 160);
-	 
-}
-
 #label14 {
 	 z-index: 17;
 	 width: 50px;
-	 height: 16px;
-	 top: 54px;
+	 height: 13px;
+	 top: 55px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -452,8 +434,8 @@
 #label13 {
 	 z-index: 15;
 	 width: 50px;
-	 height: 16px;
-	 top: 16px;
+	 height: 13px;
+	 top: 18px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -465,8 +447,8 @@
 #label2 {
 	 z-index: 7;
 	 width: 100px;
-	 height: 16px;
-	 top: 252px;
+	 height: 13px;
+	 top: 255px;
 	 left: 22px;
 	
 	 position: absolute;
@@ -546,8 +528,8 @@
 #label16 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -633,34 +615,11 @@
 	 
 }
 
-#label9 {
-	 z-index: 3;
-	 width: 75px;
-	 height: 16px;
-	 top: 67px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
-#textField2 {
-	 z-index: 3;
-	 width: 130px;
-	 height: 22px;
-	 top: 64px;
-	 left: 95px;
-	
-	 position: absolute;
-	 
-}
-
 #label4 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -693,8 +652,8 @@
 #label1 {
 	 z-index: 5;
 	 width: 100px;
-	 height: 16px;
-	 top: 251px;
+	 height: 13px;
+	 top: 254px;
 	 left: 418px;
 	
 	 position: absolute;
@@ -826,8 +785,8 @@
 #label12 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 67px;
+	 height: 13px;
+	 top: 68px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -849,8 +808,8 @@
 #label11 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -902,34 +861,11 @@
 	 
 }
 
-#label7 {
-	 z-index: 6;
-	 width: 75px;
-	 height: 16px;
-	 top: 78px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
-#textField5 {
-	 z-index: 6;
-	 width: 130px;
-	 height: 22px;
-	 top: 75px;
-	 left: 95px;
-	
-	 position: absolute;
-	 
-}
-
 #label6 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 16px;
-	 top: 24px;
+	 height: 13px;
+	 top: 25px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -951,8 +887,8 @@
 #label5 {
 	 z-index: 2;
 	 width: 75px;
-	 height: 16px;
-	 top: 23px;
+	 height: 13px;
+	 top: 24px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -997,7 +933,7 @@
 	 z-index: 2;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 36px;
+	 bottom: 40px;
 	 left: 10px;
 	
 	 position: absolute;
@@ -1023,22 +959,6 @@
 	 left: 70px;
 	
 	 position: absolute;
-	 
-}
-
-#id_qry_so_date {
-	 z-index: 11;
-	 width: 180px;
-	 height: 150px;
-	 top: 11px;
-	 left: 221px;
-	
-	 position: absolute;
-	 background-color: rgb(255, 255, 255);
-	 border-top-color: rgb(137, 137, 137);
-	 border-left-color: rgb(137, 137, 137);
-	 border-right-color: rgb(137, 137, 137);
-	 border-bottom-color: rgb(137, 137, 137);
 	 
 }
 
@@ -1108,28 +1028,6 @@
 	 
 }
 
-#id_qry_po_date {
-	 z-index: 17;
-	 width: 180px;
-	 height: 150px;
-	 top: 15px;
-	 left: 225px;
-	
-	 position: absolute;
-	 background-color: rgb(255, 255, 255);
-	 border-top-color: rgb(137, 137, 137);
-	 border-left-color: rgb(137, 137, 137);
-	 border-right-color: rgb(137, 137, 137);
-	 border-bottom-color: rgb(137, 137, 137);
-	 
-}
-
-#id_qry_po_date .datepickerSelected {
-	 color: rgb(0, 0, 0);
-	 background-color: rgb(160, 160, 160);
-	 
-}
-
 #id_qry_ro_shop {
 	 z-index: 10;
 	 width: 127px;
@@ -1149,28 +1047,6 @@
 	 left: 74px;
 	
 	 position: absolute;
-	 
-}
-
-#id_qry_ro_date {
-	 z-index: 7;
-	 width: 180px;
-	 height: 150px;
-	 top: 15px;
-	 left: 225px;
-	
-	 position: absolute;
-	 background-color: rgb(255, 255, 255);
-	 border-top-color: rgb(137, 137, 137);
-	 border-left-color: rgb(137, 137, 137);
-	 border-right-color: rgb(137, 137, 137);
-	 border-bottom-color: rgb(137, 137, 137);
-	 
-}
-
-#id_qry_ro_date .datepickerSelected {
-	 color: rgb(0, 0, 0);
-	 background-color: rgb(160, 160, 160);
 	 
 }
 
@@ -1213,6 +1089,141 @@
 	 width: 130px;
 	 height: 22px;
 	 top: 21px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#id_qry_ro_date {
+	 z-index: 7;
+	 width: 180px;
+	 height: 150px;
+	 top: 15px;
+	 left: 225px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-color: rgb(137, 137, 137);
+	 border-left-color: rgb(137, 137, 137);
+	 border-right-color: rgb(137, 137, 137);
+	 border-bottom-color: rgb(137, 137, 137);
+	 
+}
+
+#id_qry_ro_date .datepickerSelected {
+	 color: rgb(0, 0, 0);
+	 background-color: rgb(160, 160, 160);
+	 
+}
+
+#id_qry_po_date {
+	 z-index: 17;
+	 width: 180px;
+	 height: 150px;
+	 top: 15px;
+	 left: 225px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-color: rgb(137, 137, 137);
+	 border-left-color: rgb(137, 137, 137);
+	 border-right-color: rgb(137, 137, 137);
+	 border-bottom-color: rgb(137, 137, 137);
+	 
+}
+
+#id_qry_po_date .datepickerSelected {
+	 color: rgb(0, 0, 0);
+	 background-color: rgb(160, 160, 160);
+	 
+}
+
+#id_qry_so_date .datepickerSelected {
+	 color: rgb(0, 0, 0);
+	 background-color: rgb(160, 160, 160);
+	 
+}
+
+#id_qry_so_date {
+	 z-index: 11;
+	 width: 180px;
+	 height: 150px;
+	 top: 11px;
+	 left: 221px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-color: rgb(137, 137, 137);
+	 border-left-color: rgb(137, 137, 137);
+	 border-right-color: rgb(137, 137, 137);
+	 border-bottom-color: rgb(137, 137, 137);
+	 
+}
+
+#label24 {
+	 z-index: 6;
+	 width: 75px;
+	 height: 13px;
+	 top: 79px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField1 {
+	 z-index: 6;
+	 width: 130px;
+	 height: 22px;
+	 top: 75px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label9 {
+	 z-index: 3;
+	 width: 75px;
+	 height: 13px;
+	 top: 68px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField2 {
+	 z-index: 3;
+	 width: 130px;
+	 height: 22px;
+	 top: 64px;
+	 left: 95px;
+	
+	 position: absolute;
+	 
+}
+
+#label7 {
+	 z-index: 6;
+	 width: 75px;
+	 height: 13px;
+	 top: 79px;
+	 left: 15px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#textField5 {
+	 z-index: 6;
+	 width: 130px;
+	 height: 22px;
+	 top: 75px;
 	 left: 95px;
 	
 	 position: absolute;
