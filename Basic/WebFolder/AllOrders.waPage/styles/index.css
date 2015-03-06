@@ -3,6 +3,29 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#label34 {
+	 z-index: 10;
+	 width: 75px;
+	 height: 13px;
+	 top: 22px;
+	 left: 13px;
+	
+	 position: absolute;
+	 min-width: 75px;
+	 
+}
+
+#combobox9 {
+	 z-index: 10;
+	 width: 164px;
+	 height: 24px;
+	 top: 17px;
+	 left: 93px;
+	
+	 position: absolute;
+	 
+}
+
 #combobox7 {
 	 z-index: 9;
 	 width: 164px;
@@ -17,8 +40,8 @@
 #label8 {
 	 z-index: 9;
 	 width: 75px;
-	 height: 13px;
-	 top: 26px;
+	 height: 16px;
+	 top: 25px;
 	 left: 298px;
 	
 	 position: absolute;
@@ -29,8 +52,8 @@
 #label32 {
 	 z-index: 11;
 	 width: 50px;
-	 height: 13px;
-	 top: 59px;
+	 height: 16px;
+	 top: 58px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -41,8 +64,8 @@
 #label31 {
 	 z-index: 10;
 	 width: 50px;
-	 height: 13px;
-	 top: 22px;
+	 height: 16px;
+	 top: 20px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -54,8 +77,8 @@
 #label30 {
 	 z-index: 8;
 	 width: 100px;
-	 height: 13px;
-	 top: 259px;
+	 height: 16px;
+	 top: 256px;
 	 left: 26px;
 	
 	 position: absolute;
@@ -67,8 +90,8 @@
 #label29 {
 	 z-index: 7;
 	 width: 100px;
-	 height: 13px;
-	 top: 258px;
+	 height: 16px;
+	 top: 255px;
 	 left: 422px;
 	
 	 position: absolute;
@@ -80,8 +103,8 @@
 #label28 {
 	 z-index: 8;
 	 width: 75px;
-	 height: 13px;
-	 top: 68px;
+	 height: 16px;
+	 top: 67px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -92,8 +115,8 @@
 #label33 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 13px;
-	 top: 107px;
+	 height: 16px;
+	 top: 106px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -104,8 +127,8 @@
 #label27 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -116,8 +139,8 @@
 #label24 {
 	 z-index: 11;
 	 width: 75px;
-	 height: 13px;
-	 top: 79px;
+	 height: 16px;
+	 top: 78px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -128,8 +151,8 @@
 #label20 {
 	 z-index: 10;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -140,8 +163,8 @@
 #label26 {
 	 z-index: 9;
 	 width: 75px;
-	 height: 13px;
-	 top: 79px;
+	 height: 16px;
+	 top: 78px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -152,8 +175,8 @@
 #label25 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 13px;
-	 top: 133px;
+	 height: 16px;
+	 top: 132px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -164,8 +187,8 @@
 #label19 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 13px;
-	 top: 24px;
+	 height: 16px;
+	 top: 23px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -176,8 +199,8 @@
 #label22 {
 	 z-index: 13;
 	 width: 50px;
-	 height: 13px;
-	 top: 59px;
+	 height: 16px;
+	 top: 58px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -188,8 +211,8 @@
 #label21 {
 	 z-index: 12;
 	 width: 50px;
-	 height: 13px;
-	 top: 22px;
+	 height: 16px;
+	 top: 20px;
 	 left: 19px;
 	
 	 position: absolute;
@@ -200,21 +223,21 @@
 
 #label18 {
 	 z-index: 10;
-	 width: 103px;
-	 height: 13px;
-	 top: 246px;
+	 width: 94px;
+	 height: 16px;
+	 top: 243px;
 	 left: 759px;
 	
 	 position: absolute;
-	 min-width: 30px;
+	 min-width: 70px;
 	 
 }
 
 #label16 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 68px;
+	 height: 16px;
+	 top: 67px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -225,8 +248,8 @@
 #label15 {
 	 z-index: 3;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -236,21 +259,21 @@
 
 #label17 {
 	 z-index: 8;
-	 width: 121px;
-	 height: 13px;
-	 top: 245px;
+	 width: 130px;
+	 height: 16px;
+	 top: 242px;
 	 left: 449px;
 	
 	 position: absolute;
-	 min-width: 30px;
+	 min-width: 130px;
 	 
 }
 
 #label3 {
 	 z-index: 7;
-	 width: 95px;
-	 height: 13px;
-	 top: 243px;
+	 width: 84px;
+	 height: 16px;
+	 top: 240px;
 	 left: 7px;
 	
 	 position: absolute;
@@ -261,8 +284,8 @@
 #label9 {
 	 z-index: 7;
 	 width: 75px;
-	 height: 13px;
-	 top: 68px;
+	 height: 16px;
+	 top: 67px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -273,8 +296,8 @@
 #label23 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 13px;
-	 top: 114px;
+	 height: 16px;
+	 top: 113px;
 	 left: 17px;
 	
 	 position: absolute;
@@ -285,8 +308,8 @@
 #label4 {
 	 z-index: 4;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -297,8 +320,8 @@
 #label14 {
 	 z-index: 11;
 	 width: 50px;
-	 height: 13px;
-	 top: 55px;
+	 height: 16px;
+	 top: 54px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -309,8 +332,8 @@
 #label13 {
 	 z-index: 10;
 	 width: 50px;
-	 height: 13px;
-	 top: 18px;
+	 height: 16px;
+	 top: 16px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -322,8 +345,8 @@
 #label2 {
 	 z-index: 8;
 	 width: 100px;
-	 height: 13px;
-	 top: 255px;
+	 height: 16px;
+	 top: 252px;
 	 left: 22px;
 	
 	 position: absolute;
@@ -344,36 +367,11 @@
 	 
 }
 
-#label11 {
-	 z-index: 3;
-	 width: 75px;
-	 height: 13px;
-	 top: 25px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
-#label1 {
-	 z-index: 6;
-	 width: 100px;
-	 height: 13px;
-	 top: 254px;
-	 left: 418px;
-	
-	 position: absolute;
-	 max-width: 100px;
-	 min-width: 100px;
-	 
-}
-
 #label7 {
 	 z-index: 11;
 	 width: 75px;
-	 height: 13px;
-	 top: 79px;
+	 height: 16px;
+	 top: 78px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -384,8 +382,8 @@
 #label35 {
 	 z-index: 10;
 	 width: 75px;
-	 height: 13px;
-	 top: 132px;
+	 height: 16px;
+	 top: 131px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -396,8 +394,8 @@
 #label6 {
 	 z-index: 9;
 	 width: 75px;
-	 height: 13px;
-	 top: 25px;
+	 height: 16px;
+	 top: 24px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -408,8 +406,8 @@
 #label10 {
 	 z-index: 8;
 	 width: 75px;
-	 height: 13px;
-	 top: 79px;
+	 height: 16px;
+	 top: 78px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -420,8 +418,8 @@
 #label5 {
 	 z-index: 6;
 	 width: 75px;
-	 height: 13px;
-	 top: 24px;
+	 height: 16px;
+	 top: 23px;
 	 left: 321px;
 	
 	 position: absolute;
@@ -438,7 +436,7 @@
 #id_qry_ro_date {
 	 z-index: 13;
 	 width: 180px;
-	 height: 150px;
+	 height: 151px;
 	 top: 15px;
 	 left: 225px;
 	
@@ -680,7 +678,7 @@
 #id_qry_po_date {
 	 z-index: 15;
 	 width: 180px;
-	 height: 150px;
+	 height: 151px;
 	 top: 15px;
 	 left: 225px;
 	
@@ -979,23 +977,12 @@
 	 
 }
 
-#button2 {
-	 z-index: 6;
-	 width: 92px;
-	 height: 22px;
-	 top: 185px;
-	 left: 15px;
-	
-	 position: absolute;
-	 
-}
-
 #button3 {
 	 z-index: 5;
 	 width: 92px;
 	 height: 22px;
-	 top: 185px;
-	 left: 116px;
+	 top: 183px;
+	 left: 218px;
 	
 	 position: absolute;
 	 
@@ -1012,34 +999,12 @@
 	 
 }
 
-#combobox2 {
-	 z-index: 3;
-	 width: 164px;
-	 height: 24px;
-	 top: 20px;
-	 left: 95px;
-	
-	 position: absolute;
-	 
-}
-
 #container4 {
 	 z-index: 7;
 	 width: 325px;
 	 height: 225px;
 	 top: 273px;
 	 left: 668px;
-	
-	 position: absolute;
-	 
-}
-
-#dataGrid3 {
-	 z-index: 6;
-	 width: 242px;
-	 height: 524px;
-	 top: 272px;
-	 left: 418px;
 	
 	 position: absolute;
 	 
@@ -1237,6 +1202,63 @@
 	 height: 22px;
 	 top: 183px;
 	 left: 116px;
+	
+	 position: absolute;
+	 
+}
+
+#label1 {
+	 z-index: 6;
+	 width: 100px;
+	 height: 13px;
+	 top: 254px;
+	 left: 418px;
+	
+	 position: absolute;
+	 max-width: 100px;
+	 min-width: 100px;
+	 
+}
+
+#dataGrid3 {
+	 z-index: 6;
+	 width: 242px;
+	 height: 524px;
+	 top: 272px;
+	 left: 418px;
+	
+	 position: absolute;
+	 
+}
+
+#genProdOrder_btn {
+	 z-index: 14;
+	 width: 92px;
+	 height: 22px;
+	 top: 202px;
+	 left: 234px;
+	
+	 position: absolute;
+	 
+}
+
+#button_saveSOLine {
+	 z-index: 6;
+	 width: 92px;
+	 height: 22px;
+	 top: 185px;
+	 left: 15px;
+	
+	 position: absolute;
+	 
+}
+
+#button_createSOLine {
+	 z-index: 7;
+	 width: 92px;
+	 height: 22px;
+	 top: 183px;
+	 left: 117px;
 	
 	 position: absolute;
 	 

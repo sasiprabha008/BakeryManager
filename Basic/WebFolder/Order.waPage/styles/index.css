@@ -4,13 +4,13 @@
 */
 
 #btn_print_so {
+	 z-index: 13;
 	 width: 92px;
 	 height: 22px;
 	 top: 183px;
 	 left: 112px;
 	
 	 position: absolute;
-	 z-index: 13;
 	 
 }
 
@@ -933,7 +933,7 @@
 	 z-index: 2;
 	 width: 200px;
 	 top: 10px;
-	 bottom: 40px;
+	 bottom: 42px;
 	 left: 10px;
 	
 	 position: absolute;
