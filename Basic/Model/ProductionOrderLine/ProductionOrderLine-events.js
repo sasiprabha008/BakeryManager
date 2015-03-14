@@ -18,17 +18,21 @@
     }*/
 };
 
-function calculateQuantity(orderLine){
-	var q = orderLine.Order.productionOrderLineCollection.query("'Item.Recipe.ID' === :1 and 'ID' != :2", orderLine.Item.Recipe.ID, orderLine.ID).sum("Quantity");
-	return (q?q:0)+orderLine.Quantity;
+function calculateQuantity(orderLine) {
+    var q = orderLine.Order.productionOrderLineCollection.query("'Item.Recipe.ID' === :1 and 'ID' != :2", orderLine.Item.Recipe.ID, orderLine.ID).sum("Quantity");
+    return (q ? q : 0) + orderLine.Quantity;
 }
 
 model.ProductionOrderLine.Quantity.events.set = function(event) {
-    if (this.Item && this.Item.Recipe) {
+    
+};
+model.ProductionOrderLine.Quantity.events.save = function(event) {
+	if (this.Item && this.Item.Recipe) {
         mixLine = this.Order.mixingOrderLineCollection.find("'Recipe.ID' === :1", this.Item.Recipe.ID);
-        
-        mixLine.Quantity = calculateQuantity(this);
-        mixLine.save();
+        if (mixLine) {
+            mixLine.Quantity = calculateQuantity(this);
+            mixLine.save();
+        }
     }
 };
 
@@ -38,22 +42,25 @@ model.ProductionOrderLine.Quantity.events.set = function(event) {
 
 
 model.ProductionOrderLine.Item.events.validate = function(event) {
-	if (this.MixingOrderLine){
-		return {error: 5, errorMessage: 'Item can not be changed'};	
-	}
+    if (this.MixingOrderLine) {
+        return {
+            error: 5,
+            errorMessage: 'Item can not be changed'
+        };
+    }
 };
 
 
 model.ProductionOrderLine.Item.events.save = function(event) {
-	if (!this.MixingOrderLine && this.Item && this.Item.Recipe) {
+    if (!this.MixingOrderLine && this.Item && this.Item.Recipe) {
         var mixLine;
-		
+
         mixLine = this.Order.mixingOrderLineCollection.find("'Recipe.ID' === :1", this.Item.Recipe.ID);
         if (!mixLine) {
             mixLine = new ds.MixingOrderLine();
             mixLine.Order = this.Order;
             mixLine.Recipe = this.Item.Recipe;
-            
+
 
         }
         //mixLine.Quantity -= event.dataSource.getAttribute("Quantity").getOldValue();
@@ -64,3 +71,4 @@ model.ProductionOrderLine.Item.events.save = function(event) {
         //this.save();
     }
 };
+

@@ -132,6 +132,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 }
 
 // @region namespaceDeclaration// @startlock
+	var button2 = {};	// @button
+	var salesOrderEvent = {};	// @dataSource
 	var button_saveSOLine = {};	// @button
 	var genProdOrder_btn = {};	// @button
 	var btn_print_so = {};	// @button
@@ -145,6 +147,19 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	button2.click = function button2_click (event)// @startlock
+	{// @endlock
+		//genPO();
+		sources.salesOrder.genSOLines({onSuccess:function(event){
+			sources.salesOrder.serverRefresh();
+		}});
+	};// @lock
+
+	salesOrderEvent.onElementSaved = function salesOrderEvent_onElementSaved (event)// @startlock
+	{// @endlock
+		
+	};// @lock
 
 	button_saveSOLine.touchend = function button_saveSOLine_touchend (event)// @startlock
 	{// @endlock
@@ -160,8 +175,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	
 	genProdOrder_btn.click = function genProdOrder_btn_click (event)// @startlock
 	{// @endlock
-		
-		var x = sources.salesOrder;
+		//genPO();
+		sources.salesOrder.genPOAll({onSuccess:function(event){
+			alert("Sasi");
+		}});
 	};// @lock
 
 	btn_print_so.click = function btn_print_so_click (event)// @startlock
@@ -286,6 +303,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("button2", "click", button2.click, "WAF");
+	WAF.addListener("salesOrder", "onElementSaved", salesOrderEvent.onElementSaved, "WAF");
 	WAF.addListener("button_saveSOLine", "touchend", button_saveSOLine.touchend, "WAF");
 	WAF.addListener("button_saveSOLine", "click", button_saveSOLine.click, "WAF");
 	WAF.addListener("genProdOrder_btn", "click", genProdOrder_btn.click, "WAF");

@@ -29,8 +29,8 @@
 					"pathVisible" : true,
 					"position" : 
 					{
-						"X" : 60,
-						"Y" : 335
+						"X" : 83,
+						"Y" : 327
 					}
 				}
 			},
@@ -347,7 +347,7 @@
 		{
 			"scriptMode" : "manual",
 			"workspaceLeft" : 0,
-			"workspaceTop" : 200,
+			"workspaceTop" : 600,
 			"lastScriptLocation" : 
 			{
 				"Item" : 
@@ -382,6 +382,11 @@
 				"ReturnOrder" : 
 				{
 					"events" : "ReturnOrder/ReturnOrder-events.js"
+				},
+				"SalesOrder" : 
+				{
+					"events" : "SalesOrder/SalesOrder-events.js",
+					"method" : "SalesOrder/SalesOrder-methods.js"
 				}
 			}
 		}
@@ -907,6 +912,14 @@
 					"kind" : "storage",
 					"scope" : "public",
 					"type" : "number"
+				},
+				{
+					"name" : "salesOrderCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "SalesOrderCollection",
+					"reversePath" : true,
+					"path" : "ProductionOrder"
 				}
 			],
 			"methods" : 
@@ -967,8 +980,24 @@
 					[
 						{
 							"kind" : "save",
+							"from" : "$mainModel.ProductionOrderLine.Item.events.save"
+						},
+						{
+							"kind" : "save",
+							"from" : "$mainModel.ProductionOrderLine.Item.events.save"
+						},
+						{
+							"kind" : "save",
 							"from" : "$mainModel.ProductionOrderLine.Item.events.save",
 							"userDefined" : true
+						},
+						{
+							"kind" : "validate",
+							"from" : "$mainModel.ProductionOrderLine.Item.events.validate"
+						},
+						{
+							"kind" : "validate",
+							"from" : "$mainModel.ProductionOrderLine.Item.events.validate"
 						},
 						{
 							"kind" : "validate",
@@ -984,6 +1013,19 @@
 					"type" : "number",
 					"events" : 
 					[
+						{
+							"kind" : "save",
+							"from" : "$mainModel.ProductionOrderLine.Quantity.events.save",
+							"userDefined" : true
+						},
+						{
+							"kind" : "set",
+							"from" : "$mainModel.ProductionOrderLine.Quantity.events.set"
+						},
+						{
+							"kind" : "set",
+							"from" : "$mainModel.ProductionOrderLine.Quantity.events.set"
+						},
 						{
 							"kind" : "set",
 							"from" : "$mainModel.ProductionOrderLine.Quantity.events.set"
@@ -1005,6 +1047,14 @@
 			],
 			"events" : 
 			[
+				{
+					"kind" : "save",
+					"from" : "$mainModel.ProductionOrderLine.events.save"
+				},
+				{
+					"kind" : "save",
+					"from" : "$mainModel.ProductionOrderLine.events.save"
+				},
 				{
 					"kind" : "save",
 					"from" : "$mainModel.ProductionOrderLine.events.save"
@@ -1396,6 +1446,14 @@
 			[
 				{
 					"kind" : "init",
+					"from" : "$mainModel.ReturnOrder.events.init"
+				},
+				{
+					"kind" : "init",
+					"from" : "$mainModel.ReturnOrder.events.init"
+				},
+				{
+					"kind" : "init",
 					"from" : "$mainModel.ReturnOrder.events.init",
 					"userDefined" : true
 				}
@@ -1475,7 +1533,18 @@
 					"unique" : true,
 					"autosequence" : true,
 					"type" : "long",
-					"indexKind" : "btree"
+					"indexKind" : "btree",
+					"events" : 
+					[
+						{
+							"kind" : "init",
+							"from" : "$mainModel.SalesOrder.ID.events.init"
+						},
+						{
+							"kind" : "init",
+							"from" : "$mainModel.SalesOrder.ID.events.init"
+						}
+					]
 				},
 				{
 					"name" : "Shop",
@@ -1510,13 +1579,115 @@
 					"name" : "State",
 					"kind" : "storage",
 					"scope" : "public",
-					"type" : "string"
+					"type" : "string",
+					"events" : 
+					[
+						{
+							"kind" : "save",
+							"from" : "$mainModel.SalesOrder.State.events.save"
+						},
+						{
+							"kind" : "save",
+							"from" : "$mainModel.SalesOrder.State.events.save",
+							"userDefined" : true
+						},
+						{
+							"kind" : "validate",
+							"from" : "$mainModel.SalesOrder.State.events.validate",
+							"userDefined" : true
+						},
+						{
+							"kind" : "set",
+							"from" : "$mainModel.SalesOrder.State.events.set",
+							"userDefined" : true
+						}
+					]
 				},
 				{
 					"name" : "Time",
 					"kind" : "storage",
 					"scope" : "public",
 					"type" : "number"
+				},
+				{
+					"name" : "nextAllowedState",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "ProductionOrder",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "ProductionOrder",
+					"path" : "ProductionOrder"
+				}
+			],
+			"events" : 
+			[
+				{
+					"kind" : "save",
+					"from" : "$mainModel.SalesOrder.events.save"
+				},
+				{
+					"kind" : "save",
+					"from" : "$mainModel.SalesOrder.events.save"
+				},
+				{
+					"kind" : "save",
+					"from" : "$mainModel.SalesOrder.events.save",
+					"userDefined" : true
+				},
+				{
+					"kind" : "init",
+					"from" : "$mainModel.SalesOrder.events.init"
+				},
+				{
+					"kind" : "init",
+					"from" : "$mainModel.SalesOrder.events.init"
+				},
+				{
+					"kind" : "init",
+					"from" : "$mainModel.SalesOrder.events.init",
+					"userDefined" : true
+				}
+			],
+			"methods" : 
+			[
+				{
+					"name" : "changeState",
+					"applyTo" : "entity",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.SalesOrder.entityMethods.changeState",
+					"userDefined" : true
+				},
+				{
+					"name" : "genPO",
+					"applyTo" : "entity",
+					"scope" : "public",
+					"from" : "$mainModel.SalesOrder.entityMethods.genPO",
+					"userDefined" : true
+				},
+				{
+					"name" : "genPOAll",
+					"applyTo" : "entityCollection",
+					"scope" : "public",
+					"from" : "$mainModel.SalesOrder.collectionMethods.genPOAll",
+					"userDefined" : true
+				},
+				{
+					"name" : "genSOLines",
+					"applyTo" : "entity",
+					"scope" : "public",
+					"from" : "$mainModel.SalesOrder.entityMethods.genSOLines",
+					"userDefined" : true
+				},
+				{
+					"name" : "getNextState",
+					"applyTo" : "dataClass",
+					"scope" : "publicOnServer",
+					"from" : "$mainModel.SalesOrder.methods.getNextState",
+					"userDefined" : true
 				}
 			],
 			"key" : 

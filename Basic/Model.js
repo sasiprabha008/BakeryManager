@@ -7,3 +7,5 @@ include("./Model/SalesOrderLine/SalesOrderLine-events.js");
 include("./Model/Recipe/Recipe-events.js");
 include("./Model/DailyReport/DailyReport-methods.js");
 include("./Model/ReturnOrder/ReturnOrder-events.js");
+include("./Model/SalesOrder/SalesOrder-events.js");
+include("./Model/SalesOrder/SalesOrder-methods.js");
