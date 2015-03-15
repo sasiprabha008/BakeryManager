@@ -24,10 +24,10 @@ function calculateQuantity(orderLine) {
 }
 
 model.ProductionOrderLine.Quantity.events.set = function(event) {
-    
+
 };
 model.ProductionOrderLine.Quantity.events.save = function(event) {
-	if (this.Item && this.Item.Recipe) {
+    if (this.Item && this.Item.Recipe) {
         mixLine = this.Order.mixingOrderLineCollection.find("'Recipe.ID' === :1", this.Item.Recipe.ID);
         if (mixLine) {
             mixLine.Quantity = calculateQuantity(this);
@@ -42,11 +42,14 @@ model.ProductionOrderLine.Quantity.events.save = function(event) {
 
 
 model.ProductionOrderLine.Item.events.validate = function(event) {
-    if (this.MixingOrderLine) {
-        return {
-            error: 5,
-            errorMessage: 'Item can not be changed'
-        };
+    var POLine = ds.ProductionOrderLine.find("ID === :1", this.ID);
+    if (POLine) {
+        if (POLine.Item && POLine.Item.ID != this.Item.ID) {
+            return {
+                error: 5,
+                errorMessage: 'Item can not be changed'
+            };
+        }
     }
 };
 
@@ -71,4 +74,3 @@ model.ProductionOrderLine.Item.events.save = function(event) {
         //this.save();
     }
 };
-

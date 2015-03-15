@@ -51,7 +51,7 @@ model.SalesOrder.methods.getNextState = function(currentState) {
 
 model.SalesOrder.entityMethods.genPO = function() {
     var x = 0;
-    s // Add your code here;
+     // Add your code here;
 };
 model.SalesOrder.entityMethods.genPO.scope = "public";
 
@@ -59,14 +59,16 @@ model.SalesOrder.collectionMethods.genPOAll = function() {
     var PO = new ds.ProductionOrder();
 	PO.save({overrideStamp:true});
     this.forEach(function(salesOrder) {
-        if (!salesOrder.ProductionOrder) {
+        if (!salesOrder.ProductionOrder || !ds.ProductionOrder.find("'ID' === :1 ",salesOrder.ProductionOrder.ID)) {
             salesOrder.ProductionOrder = PO;
+            salesOrder.save();
             if (!PO.Time || salesOrder.Time < PO.Time) {
                 PO.Time = salesOrder.Time;
             }
+            PO.Date = salesOrder.Date;
             PO.save({overrideStamp:true});
             salesOrder.salesOrderLineCollection.forEach(function(salesOrderLine){
-            	var POLine = PO.productionOrderLineCollection.find("'Item.ID'===:1",salesOrderLine.Item.ID);
+            	var POLine = ds.ProductionOrderLine.find("'Item.ID'===:1 and 'Order.ID' === :2",salesOrderLine.Item.ID,PO.ID);
             	if(!POLine){
             		POLine = new ds.ProductionOrderLine();
             		POLine.Order = PO;

@@ -132,6 +132,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 }
 
 // @region namespaceDeclaration// @startlock
+	var productionOrderLineCollectionEvent = {};	// @dataSource
+	var combobox9 = {};	// @combobox
 	var button2 = {};	// @button
 	var salesOrderEvent = {};	// @dataSource
 	var button_saveSOLine = {};	// @button
@@ -147,6 +149,22 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	productionOrderLineCollectionEvent.onQuantityAttributeChange = function productionOrderLineCollectionEvent_onQuantityAttributeChange (event)// @startlock
+	{// @endlock
+		sources.mixingOrderLineCollection.serverRefresh();
+	};// @lock
+
+	combobox9.click = function combobox9_click (event)// @startlock
+	{// @endlock
+		sources.salesOrderLine.save();
+		sources.salesOrderLine.serverRefresh();
+	};// @lock
+
+	combobox9.change = function combobox9_change (event)// @startlock
+	{// @endlock
+		//sources.salesOrderLine.save();
+	};// @lock
 
 	button2.click = function button2_click (event)// @startlock
 	{// @endlock
@@ -177,7 +195,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 		//genPO();
 		sources.salesOrder.genPOAll({onSuccess:function(event){
-			alert("Sasi");
+			sources.productionOrder.serverRefresh();
 		}});
 	};// @lock
 
@@ -303,6 +321,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("productionOrderLineCollection", "onQuantityAttributeChange", productionOrderLineCollectionEvent.onQuantityAttributeChange, "WAF", "Quantity");
+	WAF.addListener("combobox9", "click", combobox9.click, "WAF");
+	WAF.addListener("combobox9", "change", combobox9.change, "WAF");
 	WAF.addListener("button2", "click", button2.click, "WAF");
 	WAF.addListener("salesOrder", "onElementSaved", salesOrderEvent.onElementSaved, "WAF");
 	WAF.addListener("button_saveSOLine", "touchend", button_saveSOLine.touchend, "WAF");
